@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class TicTacToeController {
-    private char player = 'X';
+    private char currentPlayer = 'X';
     private char[][] board = new char[3][3];
     @FXML
     public Button button00, button01, button02, button10, button11, button12, button20, button21, button22;
@@ -29,7 +29,7 @@ public class TicTacToeController {
 
     @FXML
     private void initialize() {
-        initialiseBoard();
+        initialise();
     }
 
     public void initialiseBoard() {
@@ -47,11 +47,11 @@ public class TicTacToeController {
         if (board[row][column] == ' ' && !isGameOver()) {
 
             //that is how we ensure that the right player is playing
-            board[row][column] = player;
-            clickedButton.setText(String.valueOf(player));
+            board[row][column] = currentPlayer;
+            clickedButton.setText(String.valueOf(currentPlayer));
 
             if (checkForWinner()) {
-                System.out.println("Player " + player + " won!");
+                System.out.println("Player " + currentPlayer + " won!");
                 resetGame();
             } else if (isBoardFull()) {
                 System.out.println("It is a tie!");
@@ -60,7 +60,7 @@ public class TicTacToeController {
                 //checks if the current player is X
                 //if true then it becomes O
                 //if false it becomes X
-                player = (player == 'X') ? 'O' : 'X';
+                currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
             }
         }
     }
