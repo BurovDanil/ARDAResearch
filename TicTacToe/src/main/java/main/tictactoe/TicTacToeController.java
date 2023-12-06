@@ -74,7 +74,7 @@ public class TicTacToeController {
         for(int i = 0; i < 3; i++){
             if(board[i][0] == currentPlayer && board[i][1] == currentPlayer && board[i][2] == currentPlayer){
                 resetGame();
-                System.out.println("test");
+                System.out.println("Vertical win!");
                 return true;
             }
         }
