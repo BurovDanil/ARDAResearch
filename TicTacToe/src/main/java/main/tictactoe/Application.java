@@ -9,11 +9,7 @@ import java.io.IOException;
 public class Application extends javafx.application.Application {
     @Override
     public void start(Stage stage) throws IOException {
-<<<<<<< HEAD
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("HelloThere.fxml"));
-=======
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("HelloThere`.fxml"));
->>>>>>> parent of 6038393 (Revert "testmerge2")
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("HelloThere".fxml"));
         Scene scene = new Scene(loader.load(), 100, 100);
         stage.setTitle("TicTacToe!");
         stage.setScene(scene);

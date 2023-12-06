@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class TicTacToeController {
-    private char player = 'X';
+    private char FIXHERE = 'X';
     private char[][] board = new char[3][3];
     @FXML
     public Button button00, button01, button02, button10, button11, button12, button20, button21, button22;
