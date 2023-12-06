@@ -7,7 +7,7 @@ The person will be given a repository consisting of two branches. The first assi
 
 <h2> First assignment </h2>
 
-1) clone the repository in the desired directory on your machine
+1) Clone the repository in the desired directory on your machine
 2) When you have cloned the repository, find the file called 'TicTacToeController.java' with the help of the command '-cd ('Change directory')' and the command '-ls('list')'.
 3) After finding the file enter the text editor (vim 'filename') and do the following things.
     - Find the method named 'checkForWinner'.
