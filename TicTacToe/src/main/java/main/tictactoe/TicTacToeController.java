@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class TicTacToeController {
-    private char Player = 'X';
+    private char FIX = 'X';
     private char[][] board = new char[3][3];
     @FXML
     public Button button00, button01, button02, button10, button11, button12, button20, button21, button22;
@@ -40,6 +40,7 @@ public class TicTacToeController {
 
     public void logic(ActionEvent event) {
         Button clickedButton = (Button) event.getSource();
+
         int row = Integer.parseInt(clickedButton.getId().substring(6, 7));
         int column = Integer.parseInt(clickedButton.getId().substring(7, 8));
 
