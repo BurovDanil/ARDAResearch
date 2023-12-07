@@ -11,7 +11,7 @@ The person will be given a repository consisting of two branches. The first assi
 2) When you have cloned the repository, find the file called 'TicTacToeController.java' with the help of the command '-cd ('Change directory')' and the command '-ls('list')'.
 3) After finding the file enter the text editor (vim 'filename') and do the following things.
     - Edit the 'set the current player' to 'currentPlayer'.
-    - Scroll down and find the method 'initialise()' and do what is said the comment.
+    - Scroll down and find the method 'initialize()' and do what is said the comment.
     - Navigate to the method called checkForWinner().
     - There is a comment that describes what should be done.
     - Save the file using ':w' and quit the file after with ':q'
