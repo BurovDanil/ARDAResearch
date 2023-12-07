@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.25)  7 DEC 2023 21:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.25)  7 DEC 2023 21:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -594,6 +594,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [4
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 49--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
 [1] [2] [3] (./BurovRaffaeli.aux)
 Package logreq Info: Writing requests to 'BurovRaffaeli.run.xml'.
 \openout1 = `BurovRaffaeli.run.xml'.
@@ -602,7 +611,7 @@ Package logreq Info: Writing requests to 'BurovRaffaeli.run.xml'.
 Here is how much of TeX's memory you used:
  13173 strings out of 476025
  252121 string characters out of 5790017
- 1859388 words of memory out of 5000000
+ 1858388 words of memory out of 5000000
  33497 multiletter control sequences out of 15000+600000
  518324 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -612,7 +621,7 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 /local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on BurovRaffaeli.pdf (7 pages, 81368 bytes).
+Output written on BurovRaffaeli.pdf (7 pages, 83050 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
