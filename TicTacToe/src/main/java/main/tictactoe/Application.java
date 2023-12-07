@@ -12,8 +12,6 @@ public class Application extends javafx.application.Application {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("FIXME.fxml"));
         Scene scene = new Scene(loader.load(), 500, 500);
         stage.setTitle("FIXME");
-        stage.setScene(scene);
-        stage.show();
     }
 
     public static void main(String[] args) {

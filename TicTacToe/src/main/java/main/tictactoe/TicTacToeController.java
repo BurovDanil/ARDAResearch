@@ -41,6 +41,7 @@ public class TicTacToeController {
 
     public void logic(ActionEvent event) {
         Button clickedButton = (Button) event.getSource();
+
         int row = Integer.parseInt(clickedButton.getId().substring(6, 7));
         int column = Integer.parseInt(clickedButton.getId().substring(7, 8));
 
