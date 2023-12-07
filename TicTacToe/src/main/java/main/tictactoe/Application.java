@@ -11,7 +11,9 @@ public class Application extends javafx.application.Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("FIXME.fxml"));
         Scene scene = new Scene(loader.load(), 500, 500);
-        stage.setTitle("FIXME");
+        stage.setTitle("I was here");
+        stage.setScene(scene);
+        stage.show();
     }
 
     public static void main(String[] args) {
