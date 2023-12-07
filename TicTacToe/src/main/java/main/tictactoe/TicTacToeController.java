@@ -9,7 +9,11 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class TicTacToeController {
+<<<<<<< HEAD
     private char Player = 'X';
+=======
+    private char "set me to currentPlayer" = 'X';
+>>>>>>> 5e01a981b4cf691f8bcbd6c8c33624d2f211710c
     private char[][] board = new char[3][3];
     @FXML
     public Button button00, button01, button02, button10, button11, button12, button20, button21, button22;
@@ -29,6 +33,7 @@ public class TicTacToeController {
 
     @FXML
     private void initialize() {
+	    //write down initialiseBoard()
         initialise();
     }
 
@@ -74,7 +79,7 @@ public class TicTacToeController {
         for(int i = 0; i < 3; i++){
             if(board[i][0] == currentPlayer && board[i][1] == currentPlayer && board[i][2] == currentPlayer){
                 resetGame();
-                System.out.println("test");
+                System.out.println("Vertical Win");
                 return true;
             }
         }

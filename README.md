@@ -7,15 +7,18 @@ The person will be given a repository consisting of two branches. The first assi
 
 <h2> First assignment </h2>
 
-1) clone the repository in the desired directory on your machine
+1) Clone the repository in the desired directory on your machine (copy the URL from GitHub website before starting the experiment)
 2) When you have cloned the repository, find the file called 'TicTacToeController.java' with the help of the command '-cd ('Change directory')' and the command '-ls('list')'.
 3) After finding the file enter the text editor (vim 'filename') and do the following things.
-    - Find the method named 'checkForWinner'.
-    - Modify that the method prints 'Vertical win'.
+    - Edit the 'set the current player' to 'currentPlayer'.
+    - Scroll down and find the method 'initialise()' and do what is said the comment.
+    - Navigate to the method called checkForWinner().
+    - There is a comment that describes what should be done.
     - Save the file using ':w' and quit the file after with ':q'
 4) Now we need to enter the text editor for the file 'Application.java'.
-    - Locate where we set the title for the application.
-    - Set the title to be 'IWasHere!'
+    - Edit eveything that has in quotes FIXME.
+    - Instead of FIXME for the fxml write down 'TicTacToe'
+    - Set the title to be 'TicTacToe'
     - Save and quit.
 5) View the current status of the branch. 
 6) Add the untracked files for staging.
@@ -28,8 +31,10 @@ The person will be given a repository consisting of two branches. The first assi
 1) Switch the branch from main to 2ndAssignment.
 2) There are stashed files in the branch, first see what is stashed with the command 'git stash show' and press 'q' after you review it.
 3) Get the stashed changes out of the branch.
-4) Push the changes to the branch.
-5) Merge the branch into the main branch.
+4) Push all the changes from the stash.
+5) Switch to the main after you have pushed the staged changes.
+5) Merge the main into the 2ndAssignment branch.
 6) Resolve the merging issue in the files specified.
+7) Push all the merged changes into the main.
 
 

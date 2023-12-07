@@ -1,0 +1,9 @@
+Giulio:
+	1. How did you find the assignment?
+	- The first assignment was easy to execute, but on the actual execution i found it hard to implement all the git command because i havent done any git commands, but on the second assignment i was way more confident in doing the assignment and i found out that when i got more comfortable with the commands it was pretty nice to know what exactly i am doing and not doing automatically.
+
+	2. After trying, do you find benefits using CLI instead of GitHub Desktop?
+	- Yes, because i thought it was harder than it actually is, it is not a complex syntax and its easier to execute actions one after another when you just need to type on the same line everytime rather than navigate through different views in order to achieve one single action.
+
+	3. Do you think using CLI would increase your efficieny GitHub/daily usage?
+	- Yes, I think so.
