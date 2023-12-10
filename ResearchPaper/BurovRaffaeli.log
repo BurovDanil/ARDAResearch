@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.6)  8 DEC 2023 11:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.25)  10 DEC 2023 16:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -576,12 +576,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 31--38
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--38
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--39
 
  []
 
@@ -603,25 +618,40 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
 
-[1] [2] [3] (./BurovRaffaeli.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+
+ []
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+[2] [3] [4] [5] (./BurovRaffaeli.aux)
 Package logreq Info: Writing requests to 'BurovRaffaeli.run.xml'.
 \openout1 = `BurovRaffaeli.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13173 strings out of 476025
- 252121 string characters out of 5790017
- 1858388 words of memory out of 5000000
- 33497 multiletter control sequences out of 15000+600000
+ 13175 strings out of 476025
+ 252163 string characters out of 5790017
+ 1859388 words of memory out of 5000000
+ 33499 multiletter control sequences out of 15000+600000
  518324 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,6n,77p,1948b,1778s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -630,10 +660,10 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 /local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on BurovRaffaeli.pdf (7 pages, 83173 bytes).
+Output written on BurovRaffaeli.pdf (9 pages, 88609 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

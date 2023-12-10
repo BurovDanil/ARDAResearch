@@ -1,7 +1,9 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}Introduction}{1}{}%
 \contentsline {subsection}{\numberline {1.1}Context and Background}{1}{}%
-\contentsline {subsection}{\numberline {1.2}Research questions and Hypothesis}{1}{}%
-\contentsline {section}{\numberline {2}Methodology}{1}{}%
-\contentsline {section}{\numberline {3}Results}{2}{}%
-\contentsline {section}{\numberline {4}Discussion}{3}{}%
+\contentsline {subsubsection}{Git}{1}{}%
+\contentsline {subsubsection}{Command line Interface and Graphical User Interface}{1}{}%
+\contentsline {subsection}{\numberline {1.2}Research questions and Hypothesis}{2}{}%
+\contentsline {section}{\numberline {2}Methodology}{2}{}%
+\contentsline {section}{\numberline {3}Results}{4}{}%
+\contentsline {section}{\numberline {4}Discussion}{5}{}%

@@ -17,7 +17,7 @@
 \usepackage[compact]{titlesec}%include title formatting package
 
 % Title Page
-\title{Git CLI or GitHub Desktop \\ Which interface is more efficient and faster?}
+\title{Git CLI or GitHub Desktop \\ What are the factors that influence the choice of the interface among IT students?}
 \author{Danil Burov and Giulio Raffaeli}
 \date{December 18th 2023\\Module: ARDA \\Venlo, Limburg, Netherlands}
 
@@ -28,12 +28,13 @@
 	
 	\begin{abstract}
 		%history%
-		From the 1970s, Command Line System (CLI) enables users to input commands for executing computers tasks. As technology progressed, graphical user interfaces (GUI) like Xerox Alto (Xerox - 1973) and the first Macintosh (Apple - 1984) became the mainstream choice. GUIs are the primary interface for most users because of the user-friendly experience, relegating CLI only to experienced users.\\\\
+		When it comes to learning programming one of the main aspects an IT student needs to learn is how to version control (VS) their work. The most common tool for versioning is Git. In the beginning IT students need to choose between Command Line Interface (CLI) and Graphical User Interface (GUI) for Git usage. \\\\
 		%cite -> wikipedia% 
 		%topic introdutction%
-		This research is an attempt to evaluate whether using Git with CLI is more efficient and faster compared to its counterpart, GitHub Desktop. In order to analyze the  differences between the effectiveness of using one or the other, a survey was conducted among IT student. Along with a short experiment.\\\\		
+		
+		This purpose of this research is to identify what are the main factors that influences the choice of the interface among IT students. In order to evaluate the reasons, a survey was conducted. Since the most efficient way of using Git is through the CLI an experiment was done to understand why students adhere to the GUI instead switching to the more efficient interface.\\\\
 		%data evaluation%
-		The results show that using the CLI instead of using the GUI for executing basic Git commands is faster and more efficient.   After getting to know the CLI commands the average pace of executing them increased significantly, showing how using the CLI can be more effective overtime. Moreover,some people who had never used the CLI before, showed interest in using it for personal usage.
+		The results show that the majority of IT students prefer using Git through the GUI, finding it more visual appealing and easier to understand. Even thought, students that CLI is more efficient using Git they still use the GUI because making the transition is harder than sticking to the interface. This statement is proven with our experiment.\\\\
 		\pagenumbering{roman}
 		
 	\end{abstract}
@@ -46,9 +47,24 @@
 	\pagenumbering{arabic}	
 	
 	\section{Introduction}
-	The purpose of this chapter is to provide the research question and the importance of it, along with context about the topic. Furthermore, this chapter will point out potential external factors that may influence the evaluation of the hypothesis. \\
+	The purpose of this chapter is to provide the research question and the importance of it, along with context about the topic. Furthermore, this chapter will point out potential external factors that may influence the evaluation of the hypothesis and its sub-questions. \\
 	\subsection{Context and Background}
-	%Talk about how Git was born%
+	
+	%Talk about how Git works%
+	\subsubsection{Git}
+	In order to understand Git it is crucial to know what is a versioning control system is (VCS). It is a system that enables developers to keep historical version of source code(*) and project files that are under development and retrieve past version. It is required when developing projects above a few hundred lines of code or where more than one developer needs to collaborate on a project. It stores version information for every file in what is generically called - 'repository'('cite -> pdf history of version control') . The basic structure of a Git repository has three main components. First, a .git directory which has the functionality of storing the meta data and object database for you repository and all the committed changes. Second, a staging area where new features that still need to be committed are kept, waiting for a commit to take place. Lastly, a working directory where your plain running copy of the source code is held. Once a commit takes place, the changes are saved from the staging area to the .git directory. ('cite -> pdf for CLI compare to GUI').
+	
+	\subsubsection{Command line Interface and Graphical User Interface}
+	%Story CLI vs GUI%
+	When the first personal computer was invented in 1973 (Kenbak - 1) ('cite' - > Museum computerhistory.org) users were forced to use the command line interface as their only way of interacting with the machine. Later on, with more people using the personal computers the need for a graphical user interface increased. The first prototypes of personal computers that use the GUI were developed in the 1970s (XEROX Alto 1973) ('cite' -> wikipedia), however, it became popular with the release of the 'Macintosh' in 1984. ('cite' ->wikipedia ). From that point on, the majority of users started using the GUI as their main interface relegating the use of CLI only to a small percentage of users.\\\\
+	When Git was first released in 2005 ('cite' -> Gitpage) the only way to work with it was through the command line interface. Throughout the years many graphical user interfaces supporting Git were developed with the most important one being GitHub Desktop, created in 2017. ('cite' -> GitHub page)\\\\
+	
+	%How they work with Git%
+	When using the command line interface you type commands manually to perform the desired actions whilst in a graphical user interface you will have something visual to interact with, such as buttons, input fields and so on. There are advantages and disadvantages of using either of the two interfaces not only for Git but in general. ('cite' -> pdf for CLI vs GUI). For programming the majority of developers prefer the CLI instead of the GUI for various of reasons. Here are some of them: \\1) Interaction speed, when it comes to GUI the speed is determined mostly on how fast you can navigate with your mouse and click speed while with the CLI what you need to do is just interact with the keypad making the process faster. \\2) Efficiency, because of the way interaction is handled in the GUI it also requires more actions compared to the CLI to execute the same task. For example: If you want to commit changes to the main repository with the CLI you need to execute three consecutive commands, whereas in the GUI you need to navigate through three different buttons and you have to input a message with your keyboard. \\3) One complaint about CLI tools is that they supposedly have a 'steeper learning curve' and no one can remember what commands to use. However, if you need to learn a complex GUI the 'learning curve' can be as steep as learning the CLI. Although, in the long run it is always better to the learn the CLI because more efficient. ('cite' -> github repo)
+	%Which one is more efficient%
+	%two of the main limiting factors when it comes to the GUI
+	As researches show 93 percent of developers use Git as their main instrument for developing and sharing their progress with other people. 
+	
 	%CLI and GUI%
 	%Reasearch question% 
 	%hypothesis -> X -> Y potential C's and I's%
