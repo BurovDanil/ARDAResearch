@@ -25,16 +25,3 @@ The person will be given a repository consisting of two branches. The first assi
 7) Commit your changes to the branch and give it the message 'submit (number is given by us :3)'.
 8) And then push the changes to the main branch.
 9) After you have pushed the changes to the branch revert the changes to the commit you just made.
-
-<h2> Second assignment </h2>
-
-1) Switch the branch from main to 2ndAssignment.
-2) There are stashed files in the branch, first see what is stashed with the command 'git stash show' and press 'q' after you review it.
-3) Get the stashed changes out of the branch.
-4) Push all the changes from the stash.
-5) Switch to the main after you have pushed the staged changes.
-5) Merge the main into the 2ndAssignment branch.
-6) Resolve the merging issue in the files specified.
-7) Push all the merged changes into the main.
-
-
