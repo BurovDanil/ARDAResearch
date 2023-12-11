@@ -1,13 +1,13 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{1}{}%
-\contentsline {section}{\numberline {1}Context and Background}{1}{}%
-\contentsline {subsection}{\numberline {1.1}Git}{1}{}%
+\contentsline {section}{\numberline {1}Introduction}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Context and Background}{1}{}%
+\contentsline {subsubsection}{Git}{1}{}%
 \contentsline {subsection}{\numberline {1.2}Command line Interface and Graphical User Interface}{1}{}%
 \contentsline {section}{\numberline {2}Research questions and Hypothesis}{2}{}%
-\contentsline {chapter}{\numberline {2}Methodology}{4}{}%
+\contentsline {chapter}{\numberline {1}Methodology}{4}{}%
 \contentsline {section}{\numberline {1}Gathering data}{4}{}%
 \contentsline {subsection}{\numberline {1.1}Survey}{4}{}%
 \contentsline {subsection}{\numberline {1.2}Experiment}{4}{}%
-\contentsline {section}{\numberline {2}Data visualization and transformation}{4}{}%
-\contentsline {chapter}{\numberline {3}Results}{5}{}%
-\contentsline {chapter}{\numberline {4}Discussion}{6}{}%
+\contentsline {section}{\numberline {2}Data visualization and transformation}{5}{}%
+\contentsline {chapter}{\numberline {2}Results}{6}{}%
+\contentsline {chapter}{\numberline {3}Discussion}{7}{}%

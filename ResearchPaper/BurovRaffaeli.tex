@@ -15,6 +15,7 @@
 \setlength\parindent{0pt}%include this so that your paragraphs don't indent automatically
 \addbibresource{report.bib} %this attaches your bib-file, your bibliography (must be in the same folder)
 \usepackage[compact]{titlesec}%include title formatting package
+\graphicspath{ {./images/} }
 
 % Title Page
 \title{Git CLI or GitHub Desktop \\ What are the factors that influence the choice of the interface among IT students?}
@@ -46,12 +47,12 @@
 	
 	\pagenumbering{arabic}	
 	
-	\chapter{Introduction}
+	\section{Introduction}
 	The purpose of this chapter is to provide the research question and the importance of it, along with context about the topic. Furthermore, this chapter will point out potential external factors that may influence the evaluation of the hypothesis and its sub-questions. \\
-	\section{Context and Background}
+	\subsection{Context and Background}
 	
 	%Talk about how Git works%
-	\subsection{Git}
+	\subsubsection{Git}
 	Up until this date Git is the most popular versioning control system, used by more than 93 percent of developers ('cite' -> StackOverflow survey). In order to understand Git it is crucial to know what is a versioning control system is (VCS). It is a system that enables developers to keep historical version of source code(*) and project files that are under development and retrieve past version. It is required when developing projects above a few hundred lines of code or where more than one developer needs to collaborate on a project. It stores version information for every file in what is generically called - 'repository'('cite -> pdf history of version control') . The basic structure of a Git repository has three main components. First, a .git directory which has the functionality of storing the meta data and object database for you repository and all the committed changes. Second, a staging area where new features that still need to be committed are kept, waiting for a commit to take place. Lastly, a working directory where your plain running copy of the source code is held. Once a commit takes place, the changes are saved from the staging area to the .git directory. ('cite -> pdf for CLI compare to GUI').
 	
 	\subsection{Command line Interface and Graphical User Interface}
@@ -74,13 +75,44 @@
 	
 	In order to take into consideration the given factors a survey was conducted to evaluate what are the aspects that influence the choice of interface for an IT student. Parallel to the survey, an experiment was conducted with students that have never used the CLI before in order to understand what difficulties they will encounter when learning basic commands and if it makes them faster at using Git. 
 	
+	\includegraphics{test}
+	
 	\chapter{Methodology}
 	This chapter will explain how we performed our research and how we set up our comparative analysis.
 	
 	\section{Gathering data}
 	\subsection{Survey}
+	
+	In order to answer our main question, while also keeping in consideration all the external variables that may influence the answer, a survey was conducted.
+	Since the research aims to give an answer that represents all IT students, the survey was sent not only to Fontys learners, but also to students from other universities.
+	The survey itself consists of 14 multiple choice questions, plus an optional open question. It is structured as follows:\\
+	First of all general questions are asked, regarding how long has the participant programmed for, how long has he been using Git and what is his current knowledge of the tool.
+	Next questions are related to which Operating System does the responder primarily use and how did he get into Git at first (from which sources did he learn to use it and with which interface).
+	Afterwards, information regarding which interface does the participant currently use and why is gathered
+	Subsequently, the respondent needs to associate various words to both interfaces, in order to understand what is his opinion on them.
+	Lastly, questions about whether the candidate has ever considered switching interface and if he thinks that doing so would improve his efficiency are asked.
+	In order to easily convert all the answers into data, the survey was created with the tool Google Forms (Google - 2008).
+	The list of all the questions and the possible replies can be found in the appendix.
+	
 	\subsection{Experiment}
+	
+	%i have stated that experienced users have conducted the experiment as well and results show that since they have prior knowledge with the CLI it was easier for them to complete the exercise without any problem%
+	
+	%i will specify that we have made an experiment with 5 people that have never used Git with CLI and 5 people who have already used Git with CLI%
+	
+	%the purpose of the assignment%
+	The main purpose for the experiment conducted for our research paper is to prove that when a person wants to switch from using the graphical user interface (GitHub Desktop) for Git to the command line interface the transition will take time and effort when it comes down to getting used to the commands. Especially because as mentioned above the learning curve is very steep. ('cite' -> GitHub repo).
+	%questionable :D%
+	
+	%explaining why we are doing two experiments with gui and cli and why we are doing the assignment briefly%
+	The exercise given to the students represent a very simple scenario where a developer would need to use Git through their interface. For the sake of our paper the experiment was done through both the graphical user interface and the command line. For a GUI we chose to use 'GitHub Desktop' since it is the most commonly used graphical interface ('cite' -> find somewhere to cite from this quote). The purpose of doing the assignment in both the interfaces is to prove that using the CLI for Git is much slower for students who have never used it and much more confusing. However, when a student had already used the CLI for Git purposes it was seen that the issues the newcomers had (mainly commands) weren't in the picture.\\
+	
+	%explaining the assignment%
+	The assignment is covering all the basic commands that need to be done in order to complete a commit changes in a repository. Both groups of IT students have never seen the assignment and were treated as they have never used Git through the CLI. They were given two sheets of paper and a repository containing the assignment they need to complete. The first paper, contained all the commands required to complete the assignment ('refer to a figure').The second paper, had the description of the assignment.('refer to a figure here'). Time was recorder during the conducting of the exercises.
+	
+	
 	\section{Data visualization and transformation}
+	 Whereas, using 'GitHub Desktop' for the assignment showed a significantly better result when it comes down to speed and understandment 
 	%Research model -> research methods%
 	%Survery%
 	%Experiment%
