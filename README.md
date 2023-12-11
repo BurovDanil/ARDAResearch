@@ -1,10 +1,11 @@
 
 The purpose of this repository is for our ARDA research paper experiment.
 
-The idea of the assignment is to test if using the command line to do some basic git commands is more efficient than using GitHub Desktop.
+The idea of the assignment is to see how much time it takes for an IT student without any knowledge of git commands to complete a very basic exercise. As well as to see how much time it will take for a person who uses Git through the CLI on a regular basis.
 
-The person will be given a repository consisting of two branches. The first assignment will be done in the main. And the second assignment will be done in the branch called '2nd assignment'.
+<!-- The idea of the assignment is to test if using the command line to do some basic git commands is more efficient than using GitHub Desktop. -->
 
+The person will be given a repository with an assignment.
 <h2> First assignment </h2>
 
 1) Clone the repository in the desired directory on your machine (copy the URL from GitHub website before starting the experiment)
