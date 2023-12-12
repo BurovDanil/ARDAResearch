@@ -5,8 +5,9 @@
 \usepackage[english]{babel}  %set the language to English
 \usepackage[margin=1.5in]{geometry} %change page margins 
 \usepackage{sectsty}%section headers
-\allsectionsfont{\sffamily\large}
-\subsectionfont{\sffamily\normalsize}
+\allsectionsfont{\sffamily\huge}
+\subsectionfont{\sffamily\LARGE}
+\subsubsectionfont{\sffamily\large}
 \linespread{1.2}% line distance
 \usepackage{lipsum}% http://ctan.org/pkg/lipsum
 \usepackage{caption}%use for captions on tables
@@ -16,6 +17,9 @@
 \addbibresource{report.bib} %this attaches your bib-file, your bibliography (must be in the same folder)
 \usepackage[compact]{titlesec}%include title formatting package
 \graphicspath{ {./images/} }
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
 
 % Title Page
 \title{Git CLI or GitHub Desktop \\ What are the factors that influence the choice of the interface among IT students?}
@@ -55,7 +59,7 @@
 	\subsubsection{Git}
 	Up until this date Git is the most popular versioning control system, used by more than 93 percent of developers ('cite' -> StackOverflow survey). In order to understand Git it is crucial to know what is a versioning control system is (VCS). It is a system that enables developers to keep historical version of source code(*) and project files that are under development and retrieve past version. It is required when developing projects above a few hundred lines of code or where more than one developer needs to collaborate on a project. It stores version information for every file in what is generically called - 'repository'('cite -> pdf history of version control') . The basic structure of a Git repository has three main components. First, a .git directory which has the functionality of storing the meta data and object database for you repository and all the committed changes. Second, a staging area where new features that still need to be committed are kept, waiting for a commit to take place. Lastly, a working directory where your plain running copy of the source code is held. Once a commit takes place, the changes are saved from the staging area to the .git directory. ('cite -> pdf for CLI compare to GUI').
 	
-	\subsection{Command line Interface and Graphical User Interface}
+	\subsubsection{Command line Interface and Graphical User Interface}
 	%Story CLI vs GUI%
 	When the first personal computer was invented in 1973 (Kenbak - 1) ('cite' - > Museum computerhistory.org) users were forced to use the command line interface as their only way of interacting with the machine. Later on, with more people using the personal computers the need for a graphical user interface increased. The first prototypes of personal computers that use the GUI were developed in the 1970s (XEROX Alto 1973) ('cite' -> wikipedia), however, it became popular with the release of the 'Macintosh' in 1984. ('cite' ->wikipedia ). From that point on, the majority of users started using the GUI as their main interface relegating the use of CLI only to a small percentage of users.\\
 	When Git was first released in 2005 ('cite' -> Gitpage) the only way to work with it was through the command line interface. Throughout the years many graphical user interfaces supporting Git were developed with the most important one being GitHub Desktop, created in 2017. ('cite' -> GitHub page)
@@ -67,21 +71,21 @@
 
 	%Reasearch question% 
 	%hypothesis -> X -> Y potential C's and I's%
-	\section{Research questions and Hypothesis}
+	\subsection{Research questions and Hypothesis}
 	The aim of the research is to find what are the reasons that influence the choice of the interface among IT students. Therefore our research questions is: "What are the factors that influence the choice of the interface among IT students?". Since surveys show that command line interface is more used ('cite' -> StackOverflow ) than graphical user interface ('cite' -> GitHub repo) and also more efficient the sub-question this research paper is aiming to answer is the following: "Is transitioning to the CLI hard for an IT student that still uses the GUI?".
 	
 	We hypothesis that students do not base their choice of Git interface on efficiency but on how user-friendly and simple the interface is. Therefore, we also believe that making the transition to the CLI from GUI is hard, because of the steep learning curve from the beginning and that is why IT students keep using the GUI.\\
-	Although, there are some external factors that need to be taken into consideration. \\1) The years a student has already programmed for.\\2) How long have they been working with Git. \\3) What was their first chosen interface.\\4) Which operating system do they use. \\
+	Although, there are some external factors that need to be taken into consideration. \\1) The years a student has already programmed for.\\2) How long have they been working with Git. \\3) What was their first chosen interface.\\4) Which operating system do they use. 
 	
 	In order to take into consideration the given factors a survey was conducted to evaluate what are the aspects that influence the choice of interface for an IT student. Parallel to the survey, an experiment was conducted with students that have never used the CLI before in order to understand what difficulties they will encounter when learning basic commands and if it makes them faster at using Git. 
 	
-	\includegraphics{test}
-	
-	\chapter{Methodology}
+	%\includegraphics{test}
+	\section{Methodology}
 	This chapter will explain how we performed our research and how we set up our comparative analysis.
 	
-	\section{Gathering data}
-	\subsection{Survey}
+	\subsection{Gathering data}
+	Since our research aims to find  on what do IT students base their choice of interface we had to gather all the data mainly by ourselves and some external sources.  This data has been gathered through the survey and experiment that was conducted among them.
+	\subsubsection{Survey}
 	
 	In order to answer our main question, while also keeping in consideration all the external variables that may influence the answer, a survey was conducted.
 	Since the research aims to give an answer that represents all IT students, the survey was sent not only to Fontys learners, but also to students from other universities.
@@ -94,15 +98,16 @@
 	In order to easily convert all the answers into data, the survey was created with the tool Google Forms (Google - 2008).
 	The list of all the questions and the possible replies can be found in the appendix.
 	
-	\subsection{Experiment}
+	\subsubsection{Experiment}
 	
 	%i have stated that experienced users have conducted the experiment as well and results show that since they have prior knowledge with the CLI it was easier for them to complete the exercise without any problem%
 	
 	%i will specify that we have made an experiment with 5 people that have never used Git with CLI and 5 people who have already used Git with CLI%
-	
+	The experiment was conducted among second year IT students from Fontys. Given this information we chose the GUI to be GitHub Desktop since it is the most used graphical user interface.
 	%the purpose of the assignment%
+	
+	
 	The main purpose for the experiment conducted for our research paper is to prove that when a person wants to switch from using the graphical user interface (GitHub Desktop) for Git to the command line interface the transition will take time and effort when it comes down to getting used to the commands. Especially because as mentioned above the learning curve is very steep. ('cite' -> GitHub repo).
-	%questionable :D%
 	
 	%explaining why we are doing two experiments with gui and cli and why we are doing the assignment briefly%
 	The exercise given to the students represent a very simple scenario where a developer would need to use Git through their interface. For the sake of our paper the experiment was done through both the graphical user interface and the command line. For a GUI we chose to use 'GitHub Desktop' since it is the most commonly used graphical interface ('cite' -> find somewhere to cite from this quote). The purpose of doing the assignment in both the interfaces is to prove that using the CLI for Git is much slower for students who have never used it and much more confusing. However, when a student had already used the CLI for Git purposes it was seen that the issues the newcomers had (mainly commands) weren't in the picture.\\
@@ -111,21 +116,45 @@
 	The assignment is covering all the basic commands that need to be done in order to complete a commit changes in a repository. Both groups of IT students have never seen the assignment and were treated as they have never used Git through the CLI. They were given two sheets of paper and a repository containing the assignment they need to complete. The first paper, contained all the commands required to complete the assignment ('refer to a figure').The second paper, had the description of the assignment.('refer to a figure here'). Time was recorder during the conducting of the exercises.
 	
 	
-	\section{Data visualization and transformation}
-	 Whereas, using 'GitHub Desktop' for the assignment showed a significantly better result when it comes down to speed and understandment 
-	%Research model -> research methods%
-	%Survery%
-	%Experiment%
-	\chapter{Results}
+	\subsection{Data visualization and transformation}
+	After gathering all the data, in order to store it in an organized way, multiple sheets were created. The tool used to create them was 'Google Sheets'. After inserting the data gathered from the survey it was exported as a 'CSV' file in order to use it later on for the data transformation. The same process was executed for the experiment. \\
+	
+	To perform the data transformation we had to choose between 'Python' and 'R'. We chose to use 'Python' with the library "pandas" v2.1.4 (McKinney, 2023) because we had previous knowledge of the language. \\
+	
+	First of all, we had to convert our 'CSV' files into dataframes which can then be used to generate plots with the use of the library "plotnine" v0.10.4 (Kibirige, 2023).  With this library multiple type of charts were created based on the variables that needed to be visualized or compared. One of the created diagram is the histogram. It was used to visualize single variable plots. The second type of diagram is the bar chart. We used it to display comparison between different entries of the same variable. And lastly, bar charts with multiple variables were used to point out correlations within two parameters.
+	
+	Before creating the plots, we needed to refine our dataframe. Initially, we had to remove a column named 'Timestamp' which was generated automatically while converting the survey data from 'Google Forms'. Later on, to perform specific queries we had to filter the data based on particular factors which influenced greatly the outcome of our plots. Moreover, to count how many times each word was chosen we needed to separate group of words and evaluate each one individually. Lastly, for the experiment dataframe we had to calculate the average time of completion for both interfaces to have a clear view of the time difference
+	\section{Results}
+	\includegraphics{EfficientNoSwitch}
+	\includegraphics{EfficientSwitch}
+	\includegraphics{ExperimentAverageTime}
+	\includegraphics{ExperimentCli}
+	\includegraphics{ExperimentGui}
+	\includegraphics{GitYearsExperience}
+	\includegraphics{OSAffectsInterface}
+	\includegraphics{SpeedNoSwitch}
+	\includegraphics{SpeedSwitch}
+	\includegraphics{ProgrammingYears}
+	\includegraphics{SwitchingCLI}
+	\includegraphics{SwitchingGUI}
+	\includegraphics{TimeSpentGit}
+	\includegraphics{WordsCLIFromCLI}
+	\includegraphics{WordsGUIfromGUI}
+	\includegraphics{WordsGUIfromCLI}
+	\includegraphics{WordsCLIFromGUI}
+	\includegraphics{YearsGitImpact}
+	\includegraphics{preferredInterface}
 	%Survery results%
 	%Experiment results%
 	%Data analysis%
-	\newpage	
-	\chapter{Discussion}
+	\newpage
+	\section{Discussion}
 	%Result interpration%
 	%Evaluate research questions%
 	%Limitations -> Y factors%
 	%further research%
+	\section{Appendix}
+	\section{Acknowledgment}
 \end{document}
 
 
