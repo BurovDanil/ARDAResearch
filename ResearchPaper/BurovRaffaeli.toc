@@ -10,6 +10,12 @@
 \contentsline {subsubsection}{\numberline {2.1.2}Experiment}{3}{}%
 \contentsline {subsection}{\numberline {2.2}Data visualization and transformation}{4}{}%
 \contentsline {section}{\numberline {3}Results}{5}{}%
-\contentsline {section}{\numberline {4}Discussion}{23}{}%
-\contentsline {section}{\numberline {5}Appendix}{23}{}%
-\contentsline {section}{\numberline {6}Acknowledgment}{23}{}%
+\contentsline {subsection}{\numberline {3.1}Survey participant information}{5}{}%
+\contentsline {subsection}{\numberline {3.2}Reasons to choose each interface}{7}{}%
+\contentsline {subsection}{\numberline {3.3}External factors that influence the choosing }{8}{}%
+\contentsline {subsection}{\numberline {3.4}Efficient usage of Git based on the interface}{11}{}%
+\contentsline {subsection}{\numberline {3.5}Words association for the two interfaces}{14}{}%
+\contentsline {subsection}{\numberline {3.6}Experiment results}{16}{}%
+\contentsline {section}{\numberline {4}Discussion}{18}{}%
+\contentsline {section}{\numberline {5}Appendix}{18}{}%
+\contentsline {section}{\numberline {6}Acknowledgment}{18}{}%

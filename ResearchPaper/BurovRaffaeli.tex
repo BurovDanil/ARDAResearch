@@ -16,6 +16,7 @@
 \setlength\parindent{0pt}%include this so that your paragraphs don't indent automatically
 \addbibresource{report.bib} %this attaches your bib-file, your bibliography (must be in the same folder)
 \usepackage[compact]{titlesec}%include title formatting package
+\usepackage{float}
 \graphicspath{ {./images/} }
 
 \setcounter{secnumdepth}{3}
@@ -125,25 +126,203 @@
 	
 	Before creating the plots, we needed to refine our dataframe. Initially, we had to remove a column named 'Timestamp' which was generated automatically while converting the survey data from 'Google Forms'. Later on, to perform specific queries we had to filter the data based on particular factors which influenced greatly the outcome of our plots. Moreover, to count how many times each word was chosen we needed to separate group of words and evaluate each one individually. Lastly, for the experiment dataframe we had to calculate the average time of completion for both interfaces to have a clear view of the time difference
 	\section{Results}
-	\includegraphics{EfficientNoSwitch}
-	\includegraphics{EfficientSwitch}
-	\includegraphics{ExperimentAverageTime}
-	\includegraphics{ExperimentCli}
-	\includegraphics{ExperimentGui}
-	\includegraphics{GitYearsExperience}
-	\includegraphics{OSAffectsInterface}
-	\includegraphics{SpeedNoSwitch}
-	\includegraphics{SpeedSwitch}
-	\includegraphics{ProgrammingYears}
-	\includegraphics{SwitchingCLI}
-	\includegraphics{SwitchingGUI}
-	\includegraphics{TimeSpentGit}
-	\includegraphics{WordsCLIFromCLI}
-	\includegraphics{WordsGUIfromGUI}
-	\includegraphics{WordsGUIfromCLI}
-	\includegraphics{WordsCLIFromGUI}
-	\includegraphics{YearsGitImpact}
-	\includegraphics{preferredInterface}
+	In this section we are going to display and explain each diagram that was generated from the results of the survey and the experiment. Every diagram will have a short explanation why it was created and the impact it has for our research. The survey had 60 participants while the experiment had 10 candidates. 
+	
+	\subsection{Survey participant information}
+	%FINISHED
+	In this subsections plots containing general programming expertise of the participants are going to be displayed, as well as their git experience and the interface they commonly use.\\
+	
+	As we can see from the figure below, among all the participants the majority of them (25) has been programming for 1-2 years, followed by 5+ years experience (24). Only, a small group of students has been programming for 2-5 years (9). (Figure.1)
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\linewidth]{ProgrammingYears}\\
+		\caption{Programming years}
+		\label{fig:  1}
+	\end{figure}
+	
+		The diagram shows that 31 participants have been using Git for 1-2 years. 19 participants between 3-5 years and only 9 students have answered more than 5 years. (Figure. 2)
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\linewidth]{GitYearsExperience}
+		\caption{Git years of experience}
+		\label{fig: 2}
+	\end{figure}
+	
+	In the figure below, the results of which is the most preferred interface is shown. From the diagram (Figure. 3) it is very clear that most of the participants of our survey use the graphical user interface instead of the command line.
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\linewidth]{preferredInterface}
+		\caption{Preferred interface}
+		\label{fig: 3}
+	\end{figure}
+	
+	%END
+	
+	%Danny
+	\subsection{Reasons to choose each interface}
+	The plots displayed in this subsection will display the factors that influenced the student to choose the interface they are currently using. They had to select from a range of words that represent why they opted for the interface they are currently using. We have two plots which show the answers from graphical user interface users and command line interface users. \\
+	
+	The following figure (figure.4) , presents the response of the IT students using the GUI as their main interface for usage with Git. It specifically highlights the words they associate with the GUI.
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\linewidth]{ReasonsGUI}
+		\caption{Reasons why students choose GUI}
+		\label{fig: 4}
+	\end{figure}
+	
+	The figure below (figure.5) showcases the feedback from IT students who predominantly use the command line interface (CLI) for Git operations. It focuses mainly on the words the students used to associate their Git usage via the CLI. 
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\linewidth]{ReasonsCLI}
+		\caption{Reasons why students choose CLI}
+		\label{fig: 5}
+	\end{figure}
+	
+	%Danny
+	\subsection{External factors that influence the choosing }
+	Here we have derived all the external factors that influences the choice of the IT student's interface.  We evaluated if the time spent in Git, the operational system that the student uses and years of Git experience, influence the interface of their choosing.\\
+	
+	In Figure.6 it is shown that the majority of the IT students who did the survey use the operational system 'Windows'. Whereas the 'Mac' and 'Linux' OS is not that common among the students. Most of the people who use 'Windows' use the graphical user interface to operate with Git. And we can see that the other two operational system have very similar results when it comes down to choosing their interface for Git usage.
+	
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.75\linewidth]{OSAffectsInterface}\\
+			\caption{Operational system affecting the chosen interface}
+			\label{fig: 6}
+		\end{figure}
+		
+		The time that a student spends in Git is crucial in choosing the interface. In figure.7 we have displayed the times that IT students spent in Git, executing commands or in general working with Git in one hour.
+			\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.75\linewidth]{TimeSpentGit}\\
+			\caption{How much time do the students spent on Git}
+			\label{fig: 7}
+		\end{figure}
+		
+		The following factor is answering if whether the years a student has been using Git has any sort of impact of their choosing of the interface they are currently using.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.75\linewidth]{YearsGitImpact}\\
+			\caption{Impact of Git years on the interface}
+			\label{fig: 8}
+		\end{figure}
+		
+		%Giulio
+		\subsection{Efficient usage of Git based on the interface}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.75\linewidth]{EfficientSwitch}\\
+			\caption{People who have switched (Efficiency)}
+			\label{fig: 9}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.75\linewidth]{EfficientNoSwitch}\\
+			\caption{People who haven't switched (Efficiency)}
+			\label{fig: 10}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.75\linewidth]{SpeedSwitch}\\
+			\caption{If people think that their interface is the fastest (Switch)}
+			\label{fig:11}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.75\linewidth]{SpeedNoSwitch}\\
+			\caption{If people think that their interface is the fastest (No switch)}
+			\label{fig: 12}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.75\linewidth]{SwitchingCLI}\\
+			\caption{How many people have swapped from CLI to GUI}
+			\label{fig:13}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.75\linewidth]{SwitchingGUI}
+			\caption{How many people have swapped from GUI to CLI}
+			\label{fig: 14}
+		\end{figure}
+	
+	%Giulio
+	\subsection{Words association for the two interfaces}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\linewidth]{WordsCLIFromCLI}\\
+		\caption{What does a CLI user associate the CLI with}
+		\label{fig: 15}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\linewidth]{WordsGUIfromGUI}\\
+		\caption{What does a GUI user associate GUI with}
+		\label{fig: 16}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\linewidth]{WordsGUIfromCLI}\\
+		\caption{GUI user words for CLI}
+		\label{fig: 17}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\linewidth]{WordsCLIFromGUI}\\
+		\caption{CLI user words for GUI}
+		\label{fig: 18}
+	\end{figure}
+\newpage
+%Danny
+\subsection{Experiment results}
+The data displayed in the subsection will be regarding the experiment that was conducted among the IT students. We derived three plots in total which are most relevant to our research paper. Here we have shown the average time of completion in seconds between the two interfaces, the time it took for each participant in our experiment finishing the assignment through each interface.\\
+		%EXPERIMENT
+		
+	To have a better overview and make the calculation of the average of all the students who completed our assignment, we converted the minutes we had recorded to seconds. That way it is easier to see the different times that people using the CLI and GUI had for the completion of the experiment. On x-axis we have the interface that was used for the completion and on the y-axis the average seconds it took the students. (figure.19)
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\linewidth]{ExperimentAverageTime}\\
+	\caption{Average time for completing the experiment}
+	\label{fig: 19}
+\end{figure}
+%END
+
+
+%CHANGE%
+In the following figure (figure.20) we have displayed all the completions of our assignment among all the candidates who used the CLI. Here we decided to keep the minutes and not convert to seconds since it has a better overview in this case of the actual times it took people.
+%ON TOP%
+
+
+%EXPERIMENT
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\linewidth]{ExperimentCli}\\
+	\caption{Experiment completed through the command line interface}
+	\label{fig: 20}
+\end{figure}
+
+Below, we have displayed the results of the people who finished the assignment with the GUI. As previously mentioned, all candidates who participated in our experiment had to complete the assignment with both interfaces.
+
+%EXPERIMENt
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\linewidth]{ExperimentGui}\\
+	\caption{Experiment completed through the graphical user interface}
+	\label{fig: 21}
+\end{figure}
+
 	%Survery results%
 	%Experiment results%
 	%Data analysis%
@@ -155,7 +334,6 @@
 	%further research%
 	\section{Appendix}
 	\section{Acknowledgment}
-\end{document}
 
 
 \printbibliography[title=References]
