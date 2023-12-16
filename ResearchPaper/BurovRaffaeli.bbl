@@ -16,5 +16,138 @@
   {}
 \endgroup
 
-\datalist[entry]{nyt/global//global/global}\enddatalist
+\datalist[entry]{nyt/global//global/global}
+  \entry{hultstrand_git_2015}{book}{}
+    \name{author}{2}{}{%
+      {{hash=HS}{%
+         family={Hultstrand},
+         familyi={H\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=OR}{%
+         family={Olofsson},
+         familyi={O\bibinitperiod},
+         given={Robin},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HSOR1}
+    \strng{fullhash}{HSOR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    {DiVA} portal is a finding tool for research publications and student
+  theses written at the following 50 universities and research institutions.%
+    }
+    \field{shorttitle}{Git - {CLI} or {GUI}}
+    \field{title}{Git - {CLI} or {GUI} : Which is most widely used and why?}
+    \verb{url}
+    \verb https://urn.kb.se/resolve?urn=urn:nbn:se:bth-10539
+    \endverb
+    \verb{file}
+    \verb Full Text PDF:/Users/danilburov/Zotero/storage/2QXTV2E6/Hultstrand an
+    \verb d Olofsson - 2015 - Git - CLI or GUI Which is most widely used and w.
+    \verb pdf:application/pdf
+    \endverb
+    \field{year}{2015}
+    \field{urlday}{15}
+    \field{urlmonth}{12}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{ruparelia_history_2010}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RNB}{%
+         family={Ruparelia},
+         familyi={R\bibinitperiod},
+         given={Nayan\bibnamedelima B.},
+         giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RNB1}
+    \strng{fullhash}{RNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.1145/1668862.1668876
+    \endverb
+    \field{issn}{0163-5948}
+    \field{number}{1}
+    \field{pages}{5\bibrangedash 9}
+    \field{shortjournal}{{SIGSOFT} Softw. Eng. Notes}
+    \field{title}{The history of version control}
+    \verb{url}
+    \verb https://doi.org/10.1145/1668862.1668876
+    \endverb
+    \field{volume}{35}
+    \field{journaltitle}{{ACM} {SIGSOFT} Software Engineering Notes}
+    \field{day}{25}
+    \field{month}{01}
+    \field{year}{2010}
+    \field{urlday}{15}
+    \field{urlmonth}{12}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{noauthor_stack_nodate}{online}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={StackOverflow},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    In May 2022 over 70,000 developers told us how they learn and level up,
+  which tools they’re using, and what they want.%
+    }
+    \field{titleaddon}{Stack Overflow}
+    \field{title}{Stack Overflow Developer Survey 2022}
+    \verb{url}
+    \verb https://survey.stackoverflow.co/2022/?utm_source=social-share&utm_med
+    \verb ium=social&utm_campaign=dev-survey-2022
+    \endverb
+    \field{langid}{english}
+    \verb{file}
+    \verb Snapshot:/Users/danilburov/Zotero/storage/54LWXVDI/2022.html:text/htm
+    \verb l
+    \endverb
+    \field{urlday}{15}
+    \field{urlmonth}{12}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{noauthor_what_nodate}{online}{}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{What Was The First {PC}? - {CHM} Revolution}
+    \verb{url}
+    \verb https://www.computerhistory.org/revolution/personal-computers/17/297
+    \endverb
+    \verb{file}
+    \verb What Was The First PC? - CHM Revolution:/Users/danilburov/Zotero/stor
+    \verb age/KFCNVX5D/297.html:text/html
+    \endverb
+    \field{urlday}{15}
+    \field{urlmonth}{12}
+    \field{urlyear}{2023}
+  \endentry
+\enddatalist
 \endinput

@@ -84,6 +84,8 @@
     </requires>
     <requires type="editable">
       <file>report.bib</file>
+      <file>BurovRaffaeli.bib</file>
+      <file>Burov.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

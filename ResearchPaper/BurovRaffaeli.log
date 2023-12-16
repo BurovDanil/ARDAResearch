@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.6)  16 DEC 2023 19:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.25)  16 DEC 2023 20:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -468,25 +468,25 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                '<namepart>inits' conflicts with 'uniquename=full'.
-(biblatex)                Setting 'uniquename=init' on input line 31.
+(biblatex)                Setting 'uniquename=init' on input line 35.
 
 (./BurovRaffaeli.aux)
 \openout1 = `BurovRaffaeli.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -564,38 +564,38 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'BurovRaffaeli.bbl' found.
 
 (./BurovRaffaeli.bbl)
-Package biblatex Info: Reference section=0 on input line 31.
-Package biblatex Info: Reference segment=0 on input line 31.
+Package biblatex Info: Reference section=0 on input line 35.
+Package biblatex Info: Reference segment=0 on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 33.
+(Font)              <12> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 33.
+(Font)              <8> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 33.
+(Font)              <6> on input line 37.
  [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 37--40
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--40
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--45
+Underfull \hbox (badness 10000) in paragraph at lines 45--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--45
+Underfull \hbox (badness 10000) in paragraph at lines 45--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--45
+Underfull \hbox (badness 10000) in paragraph at lines 45--49
 
  []
 
@@ -617,309 +617,310 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
 [1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-<./images//ProgrammingYears.png, id=33, 467.5869pt x 346.896pt>
+<./images//ProgrammingYears.png, id=34, 467.5869pt x 346.896pt>
 File: ./images//ProgrammingYears.png Graphic file (type png)
 <use ./images//ProgrammingYears.png>
-Package pdftex.def Info: ./images//ProgrammingYears.png  used on input line 139
+Package pdftex.def Info: ./images//ProgrammingYears.png  used on input line 153
 .
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
-<./images//GitYearsExperience.png, id=35, 467.5869pt x 346.896pt>
+<./images//GitYearsExperience.png, id=36, 467.5869pt x 346.896pt>
 File: ./images//GitYearsExperience.png Graphic file (type png)
 <use ./images//GitYearsExperience.png>
 Package pdftex.def Info: ./images//GitYearsExperience.png  used on input line 1
-47.
+61.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
 [5 <./images//ProgrammingYears.png>]
-<./images//preferredInterface.png, id=40, 467.5869pt x 342.5598pt>
+<./images//preferredInterface.png, id=41, 467.5869pt x 342.5598pt>
 File: ./images//preferredInterface.png Graphic file (type png)
 <use ./images//preferredInterface.png>
 Package pdftex.def Info: ./images//preferredInterface.png  used on input line 1
-57.
+71.
 (pdftex.def)             Requested size: 298.11374pt x 218.41164pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 [6 <./images//GitYearsExperience.png> <./images//preferredInterface.png>]
-<./images//ReasonsGUI.png, id=46, 467.5869pt x 346.896pt>
+<./images//ReasonsGUI.png, id=47, 467.5869pt x 346.896pt>
 File: ./images//ReasonsGUI.png Graphic file (type png)
 <use ./images//ReasonsGUI.png>
-Package pdftex.def Info: ./images//ReasonsGUI.png  used on input line 172.
+Package pdftex.def Info: ./images//ReasonsGUI.png  used on input line 186.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
-<./images//ReasonsCLI.png, id=47, 467.5869pt x 346.896pt>
+<./images//ReasonsCLI.png, id=48, 467.5869pt x 346.896pt>
 File: ./images//ReasonsCLI.png Graphic file (type png)
 <use ./images//ReasonsCLI.png>
-Package pdftex.def Info: ./images//ReasonsCLI.png  used on input line 181.
+Package pdftex.def Info: ./images//ReasonsCLI.png  used on input line 195.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
 
 [7 <./images//ReasonsGUI.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
-<./images//OSAffectsInterface.png, id=52, 467.5869pt x 346.896pt>
+<./images//OSAffectsInterface.png, id=53, 467.5869pt x 346.896pt>
 File: ./images//OSAffectsInterface.png Graphic file (type png)
 <use ./images//OSAffectsInterface.png>
-Package pdftex.def Info: ./images//OSAffectsInterface.png  used on input line 1
-94.
+Package pdftex.def Info: ./images//OSAffectsInterface.png  used on input line 2
+08.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
 [8 <./images//ReasonsCLI.png>]
-<./images//TimeSpentGit.png, id=57, 467.5869pt x 346.896pt>
+<./images//TimeSpentGit.png, id=58, 467.5869pt x 346.896pt>
 File: ./images//TimeSpentGit.png Graphic file (type png)
 <use ./images//TimeSpentGit.png>
-Package pdftex.def Info: ./images//TimeSpentGit.png  used on input line 202.
+Package pdftex.def Info: ./images//TimeSpentGit.png  used on input line 216.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
-<./images//YearsGitImpact.png, id=58, 467.5869pt x 346.896pt>
+<./images//YearsGitImpact.png, id=59, 467.5869pt x 346.896pt>
 File: ./images//YearsGitImpact.png Graphic file (type png)
 <use ./images//YearsGitImpact.png>
-Package pdftex.def Info: ./images//YearsGitImpact.png  used on input line 210.
+Package pdftex.def Info: ./images//YearsGitImpact.png  used on input line 224.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
  [9 <./images//OSAffectsInterface.png> <./images//TimeSpentGit.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
 
  []
 
-<./images//SwitchingCLI.png, id=65, 467.5869pt x 342.5598pt>
+<./images//SwitchingCLI.png, id=66, 467.5869pt x 342.5598pt>
 File: ./images//SwitchingCLI.png Graphic file (type png)
 <use ./images//SwitchingCLI.png>
-Package pdftex.def Info: ./images//SwitchingCLI.png  used on input line 225.
+Package pdftex.def Info: ./images//SwitchingCLI.png  used on input line 239.
 (pdftex.def)             Requested size: 298.11374pt x 218.41164pt.
 [10 <./images//YearsGitImpact.png>]
-<./images//SwitchingGUI.png, id=70, 467.5869pt x 342.5598pt>
+<./images//SwitchingGUI.png, id=71, 467.5869pt x 342.5598pt>
 File: ./images//SwitchingGUI.png Graphic file (type png)
 <use ./images//SwitchingGUI.png>
-Package pdftex.def Info: ./images//SwitchingGUI.png  used on input line 235.
+Package pdftex.def Info: ./images//SwitchingGUI.png  used on input line 249.
 (pdftex.def)             Requested size: 298.11374pt x 218.41164pt.
-<./images//EfficientSwitch.png, id=71, 467.5869pt x 342.5598pt>
+<./images//EfficientSwitch.png, id=72, 467.5869pt x 342.5598pt>
 File: ./images//EfficientSwitch.png Graphic file (type png)
 <use ./images//EfficientSwitch.png>
-Package pdftex.def Info: ./images//EfficientSwitch.png  used on input line 242.
+Package pdftex.def Info: ./images//EfficientSwitch.png  used on input line 256.
 
 (pdftex.def)             Requested size: 298.11374pt x 218.41164pt.
  [11 <./images//SwitchingCLI.png> <./images//SwitchingGUI.png>]
-<./images//EfficientNoSwitch.png, id=77, 481.3182pt x 342.5598pt>
+<./images//EfficientNoSwitch.png, id=78, 481.3182pt x 342.5598pt>
 File: ./images//EfficientNoSwitch.png Graphic file (type png)
 <use ./images//EfficientNoSwitch.png>
-Package pdftex.def Info: ./images//EfficientNoSwitch.png  used on input line 24
-9.
+Package pdftex.def Info: ./images//EfficientNoSwitch.png  used on input line 26
+3.
 (pdftex.def)             Requested size: 298.11374pt x 212.17056pt.
-<./images//SpeedSwitch.png, id=78, 467.5869pt x 342.5598pt>
+<./images//SpeedSwitch.png, id=79, 467.5869pt x 342.5598pt>
 File: ./images//SpeedSwitch.png Graphic file (type png)
 <use ./images//SpeedSwitch.png>
-Package pdftex.def Info: ./images//SpeedSwitch.png  used on input line 256.
+Package pdftex.def Info: ./images//SpeedSwitch.png  used on input line 270.
 (pdftex.def)             Requested size: 298.11374pt x 218.41164pt.
  [12 <./images//EfficientSwitch.png> <./images//EfficientNoSwitch.png>]
-<./images//SpeedNoSwitch.png, id=84, 467.5869pt x 342.5598pt>
+<./images//SpeedNoSwitch.png, id=85, 467.5869pt x 342.5598pt>
 File: ./images//SpeedNoSwitch.png Graphic file (type png)
 <use ./images//SpeedNoSwitch.png>
-Package pdftex.def Info: ./images//SpeedNoSwitch.png  used on input line 262.
+Package pdftex.def Info: ./images//SpeedNoSwitch.png  used on input line 276.
 (pdftex.def)             Requested size: 298.11374pt x 218.41164pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
 [13 <./images//SpeedSwitch.png> <./images//SpeedNoSwitch.png>]
-<./images//WordsCLIFromCLI.png, id=90, 467.5869pt x 346.896pt>
+<./images//WordsCLIFromCLI.png, id=91, 467.5869pt x 346.896pt>
 File: ./images//WordsCLIFromCLI.png Graphic file (type png)
 <use ./images//WordsCLIFromCLI.png>
-Package pdftex.def Info: ./images//WordsCLIFromCLI.png  used on input line 277.
+Package pdftex.def Info: ./images//WordsCLIFromCLI.png  used on input line 291.
 
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
-<./images//WordsGUIfromCLI.png, id=91, 473.3685pt x 346.896pt>
+<./images//WordsGUIfromCLI.png, id=92, 473.3685pt x 346.896pt>
 File: ./images//WordsGUIfromCLI.png Graphic file (type png)
 <use ./images//WordsGUIfromCLI.png>
-Package pdftex.def Info: ./images//WordsGUIfromCLI.png  used on input line 285.
+Package pdftex.def Info: ./images//WordsGUIfromCLI.png  used on input line 299.
 
 (pdftex.def)             Requested size: 298.11374pt x 218.47153pt.
  [14 <./images//WordsCLIFromCLI.png>]
-<./images//WordsGUIfromGUI.png, id=96, 473.3685pt x 346.896pt>
+<./images//WordsGUIfromGUI.png, id=97, 473.3685pt x 346.896pt>
 File: ./images//WordsGUIfromGUI.png Graphic file (type png)
 <use ./images//WordsGUIfromGUI.png>
-Package pdftex.def Info: ./images//WordsGUIfromGUI.png  used on input line 294.
+Package pdftex.def Info: ./images//WordsGUIfromGUI.png  used on input line 308.
 
 (pdftex.def)             Requested size: 298.11374pt x 218.47153pt.
  [15 <./images//WordsGUIfromCLI.png> <./images//WordsGUIfromGUI.png>]
-<./images//WordsCLIFromGUI.png, id=103, 473.3685pt x 346.896pt>
+<./images//WordsCLIFromGUI.png, id=104, 473.3685pt x 346.896pt>
 File: ./images//WordsCLIFromGUI.png Graphic file (type png)
 <use ./images//WordsCLIFromGUI.png>
-Package pdftex.def Info: ./images//WordsCLIFromGUI.png  used on input line 304.
+Package pdftex.def Info: ./images//WordsCLIFromGUI.png  used on input line 318.
 
 (pdftex.def)             Requested size: 298.11374pt x 218.47153pt.
  [16 <./images//WordsCLIFromGUI.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 311--313
+Underfull \hbox (badness 10000) in paragraph at lines 325--327
 
  []
 
-<./images//ExperimentAverageTime.png, id=108, 467.5869pt x 346.896pt>
+<./images//ExperimentAverageTime.png, id=109, 467.5869pt x 346.896pt>
 File: ./images//ExperimentAverageTime.png Graphic file (type png)
 <use ./images//ExperimentAverageTime.png>
 Package pdftex.def Info: ./images//ExperimentAverageTime.png  used on input lin
-e 318.
+e 332.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
-<./images//ExperimentCli.png, id=109, 467.5869pt x 346.896pt>
+<./images//ExperimentCli.png, id=110, 467.5869pt x 346.896pt>
 File: ./images//ExperimentCli.png Graphic file (type png)
 <use ./images//ExperimentCli.png>
-Package pdftex.def Info: ./images//ExperimentCli.png  used on input line 334.
+Package pdftex.def Info: ./images//ExperimentCli.png  used on input line 343.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
 [17 <./images//ExperimentAverageTime.png>]
-<./images//ExperimentGui.png, id=114, 467.5869pt x 346.896pt>
+<./images//ExperimentGui.png, id=115, 467.5869pt x 346.896pt>
 File: ./images//ExperimentGui.png Graphic file (type png)
 <use ./images//ExperimentGui.png>
-Package pdftex.def Info: ./images//ExperimentGui.png  used on input line 344.
+Package pdftex.def Info: ./images//ExperimentGui.png  used on input line 352.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
- [18 <./images//ExperimentCli.png> <./images//ExperimentGui.png>] [19] [20] [21
-]
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+ [18 <./images//ExperimentCli.png>]
+[19 <./images//ExperimentGui.png>] [20] [21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 407--484
 
  []
 
-[22] [23]
+[23] [24] [25] [26
 
-LaTeX Warning: Empty bibliography on input line 470.
-
-[24] (./BurovRaffaeli.aux)
+] (./BurovRaffaeli.aux)
 Package logreq Info: Writing requests to 'BurovRaffaeli.run.xml'.
 \openout1 = `BurovRaffaeli.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13430 strings out of 476025
- 258464 string characters out of 5790017
- 1860388 words of memory out of 5000000
- 33755 multiletter control sequences out of 15000+600000
- 518912 words of font info for 54 fonts, out of 8000000 for 9000
+ 13677 strings out of 476025
+ 263837 string characters out of 5790017
+ 1861388 words of memory out of 5000000
+ 33999 multiletter control sequences out of 15000+600000
+ 519727 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,7n,77p,1948b,1778s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
-/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on BurovRaffaeli.pdf (28 pages, 452269 bytes).
+/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></us
+r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
+/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on BurovRaffaeli.pdf (30 pages, 499263 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 183 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

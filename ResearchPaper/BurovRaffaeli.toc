@@ -16,11 +16,11 @@
 \contentsline {subsection}{\numberline {3.4}Efficient usage of Git based on the interface}{10}{}%
 \contentsline {subsection}{\numberline {3.5}Words association for the two interfaces}{14}{}%
 \contentsline {subsection}{\numberline {3.6}Experiment results}{17}{}%
-\contentsline {section}{\numberline {4}Discussion}{19}{}%
-\contentsline {subsection}{\numberline {4.1}Evaluate Research Question}{19}{}%
-\contentsline {subsection}{\numberline {4.2}Evaluate secondary research question}{19}{}%
-\contentsline {subsection}{\numberline {4.3}Limitations}{20}{}%
-\contentsline {subsection}{\numberline {4.4}Further Research}{21}{}%
-\contentsline {section}{\numberline {5}Appendix}{22}{}%
-\contentsline {subsection}{\numberline {5.1}Survey questions and possible answers}{22}{}%
-\contentsline {section}{\numberline {6}Acknowledgment}{24}{}%
+\contentsline {section}{\numberline {4}Discussion}{20}{}%
+\contentsline {subsection}{\numberline {4.1}Evaluate Research Question}{20}{}%
+\contentsline {subsection}{\numberline {4.2}Evaluate secondary research question}{21}{}%
+\contentsline {subsection}{\numberline {4.3}Limitations}{21}{}%
+\contentsline {subsection}{\numberline {4.4}Further Research}{22}{}%
+\contentsline {section}{\numberline {5}Appendix}{23}{}%
+\contentsline {subsection}{\numberline {5.1}Survey questions and possible answers}{23}{}%
+\contentsline {section}{\numberline {6}Acknowledgment}{25}{}%
