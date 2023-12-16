@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.6)  15 DEC 2023 12:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.6)  16 DEC 2023 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -803,11 +803,11 @@ File: ./images//ExperimentGui.png Graphic file (type png)
 <use ./images//ExperimentGui.png>
 Package pdftex.def Info: ./images//ExperimentGui.png  used on input line 344.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
- [18 <./images//ExperimentCli.png> <./images//ExperimentGui.png>]
+ [18 <./images//ExperimentCli.png> <./images//ExperimentGui.png>] [19]
 
-LaTeX Warning: Empty bibliography on input line 362.
+LaTeX Warning: Empty bibliography on input line 383.
 
-[19] (./BurovRaffaeli.aux)
+[20] (./BurovRaffaeli.aux)
 Package logreq Info: Writing requests to 'BurovRaffaeli.run.xml'.
 \openout1 = `BurovRaffaeli.run.xml'.
 
@@ -815,7 +815,7 @@ Package logreq Info: Writing requests to 'BurovRaffaeli.run.xml'.
 Here is how much of TeX's memory you used:
  13430 strings out of 476025
  258464 string characters out of 5790017
- 1859388 words of memory out of 5000000
+ 1861388 words of memory out of 5000000
  33755 multiletter control sequences out of 15000+600000
  518912 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -825,10 +825,10 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 /local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on BurovRaffaeli.pdf (23 pages, 443286 bytes).
+Output written on BurovRaffaeli.pdf (24 pages, 448034 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 149 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

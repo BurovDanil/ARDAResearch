@@ -17,5 +17,7 @@
 \contentsline {subsection}{\numberline {3.5}Words association for the two interfaces}{14}{}%
 \contentsline {subsection}{\numberline {3.6}Experiment results}{17}{}%
 \contentsline {section}{\numberline {4}Discussion}{19}{}%
-\contentsline {section}{\numberline {5}Appendix}{19}{}%
-\contentsline {section}{\numberline {6}Acknowledgment}{19}{}%
+\contentsline {subsection}{\numberline {4.1}Evaluate Research Question}{19}{}%
+\contentsline {subsection}{\numberline {4.2}Evaluate secondary research question}{19}{}%
+\contentsline {section}{\numberline {5}Appendix}{20}{}%
+\contentsline {section}{\numberline {6}Acknowledgment}{20}{}%
