@@ -6,7 +6,7 @@ The idea of the assignment is to see how much time it takes for an IT student wi
 <!-- The idea of the assignment is to test if using the command line to do some basic git commands is more efficient than using GitHub Desktop. -->
 
 The person will be given a repository with an assignment.
-<h2> First assignment </h2>
+<h2>Assignment </h2>
 
 1) Clone the repository in the desired directory on your machine (copy the URL from GitHub website before starting the experiment)
 2) When you have cloned the repository, find the file called 'TicTacToeController.java' with the help of the command '-cd ('Change directory')' and the command '-ls('list')'.
