@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.6)  16 DEC 2023 21:07
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.25)  17 DEC 2023 19:04
->>>>>>> Stashed changes
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.25)  17 DEC 2023 19:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -464,6 +460,30 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box56
 )
 
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 <
+      <<<<<< Updated upstream
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 >
+      >>>>>> Stashed changes
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
@@ -472,25 +492,25 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                '<namepart>inits' conflicts with 'uniquename=full'.
-(biblatex)                Setting 'uniquename=init' on input line 31.
+(biblatex)                Setting 'uniquename=init' on input line 38.
 
 (./BurovRaffaeli.aux)
 \openout1 = `BurovRaffaeli.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -568,38 +588,39 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'BurovRaffaeli.bbl' found.
 
 (./BurovRaffaeli.bbl)
-Package biblatex Info: Reference section=0 on input line 31.
-Package biblatex Info: Reference segment=0 on input line 31.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 33.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 33.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 33.
+Package biblatex Info: Reference section=0 on input line 38.
+Package biblatex Info: Reference segment=0 on input line 38.
  [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 37--40
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 40.
+ [1]
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--40
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--45
+Underfull \hbox (badness 10000) in paragraph at lines 48--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--45
+Underfull \hbox (badness 10000) in paragraph at lines 48--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--45
+Underfull \hbox (badness 10000) in paragraph at lines 48--52
 
  []
 
@@ -621,497 +642,286 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [4
 
 ]
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[1] [2]
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
->>>>>>> Stashed changes
+[1] [2] [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
-[3]
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
->>>>>>> Stashed changes
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-[4]
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
->>>>>>> Stashed changes
-
- []
-
-<./images//ProgrammingYears.png, id=33, 467.5869pt x 346.896pt>
+<./images//ProgrammingYears.png, id=39, 467.5869pt x 346.896pt>
 File: ./images//ProgrammingYears.png Graphic file (type png)
 <use ./images//ProgrammingYears.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//ProgrammingYears.png  used on input line 139
-=======
-Package pdftex.def Info: ./images//ProgrammingYears.png  used on input line 133
->>>>>>> Stashed changes
+Package pdftex.def Info: ./images//ProgrammingYears.png  used on input line 161
 .
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
-<./images//GitYearsExperience.png, id=35, 467.5869pt x 346.896pt>
+[6]
+<./images//GitYearsExperience.png, id=44, 467.5869pt x 346.896pt>
 File: ./images//GitYearsExperience.png Graphic file (type png)
 <use ./images//GitYearsExperience.png>
 Package pdftex.def Info: ./images//GitYearsExperience.png  used on input line 1
-<<<<<<< Updated upstream
-47.
-=======
-41.
->>>>>>> Stashed changes
+69.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
-[5 <./images//ProgrammingYears.png>]
-<./images//preferredInterface.png, id=40, 467.5869pt x 342.5598pt>
+ [7 <./images//ProgrammingYears.png> <./images//GitYearsExperience.png>]
+<./images//preferredInterface.png, id=50, 467.5869pt x 342.5598pt>
 File: ./images//preferredInterface.png Graphic file (type png)
 <use ./images//preferredInterface.png>
 Package pdftex.def Info: ./images//preferredInterface.png  used on input line 1
-<<<<<<< Updated upstream
-57.
+79.
 (pdftex.def)             Requested size: 298.11374pt x 218.41164pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
-=======
-51.
-(pdftex.def)             Requested size: 298.11374pt x 218.41164pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
-[6 <./images//GitYearsExperience.png> <./images//preferredInterface.png>]
-<./images//ReasonsGUI.png, id=46, 467.5869pt x 346.896pt>
+<./images//ReasonsGUI.png, id=51, 467.5869pt x 346.896pt>
 File: ./images//ReasonsGUI.png Graphic file (type png)
 <use ./images//ReasonsGUI.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//ReasonsGUI.png  used on input line 172.
-=======
-Package pdftex.def Info: ./images//ReasonsGUI.png  used on input line 163.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./images//ReasonsGUI.png  used on input line 191.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
-<./images//ReasonsCLI.png, id=47, 467.5869pt x 346.896pt>
+[8 <./images//preferredInterface.png>]
+<./images//ReasonsCLI.png, id=57, 467.5869pt x 346.896pt>
 File: ./images//ReasonsCLI.png Graphic file (type png)
 <use ./images//ReasonsCLI.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//ReasonsCLI.png  used on input line 181.
+Package pdftex.def Info: ./images//ReasonsCLI.png  used on input line 200.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
 
-[7 <./images//ReasonsGUI.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
-=======
-Package pdftex.def Info: ./images//ReasonsCLI.png  used on input line 172.
-(pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
-
-[7 <./images//ReasonsGUI.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-<./images//OSAffectsInterface.png, id=52, 467.5869pt x 346.896pt>
+[9 <./images//ReasonsGUI.png> <./images//ReasonsCLI.png>]
+<./images//OSAffectsInterface.png, id=63, 467.5869pt x 346.896pt>
 File: ./images//OSAffectsInterface.png Graphic file (type png)
 <use ./images//OSAffectsInterface.png>
-Package pdftex.def Info: ./images//OSAffectsInterface.png  used on input line 1
-<<<<<<< Updated upstream
-94.
-=======
-84.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./images//OSAffectsInterface.png  used on input line 2
+12.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
-[8 <./images//ReasonsCLI.png>]
-<./images//TimeSpentGit.png, id=57, 467.5869pt x 346.896pt>
+<./images//TimeSpentGit.png, id=64, 467.5869pt x 346.896pt>
 File: ./images//TimeSpentGit.png Graphic file (type png)
 <use ./images//TimeSpentGit.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//TimeSpentGit.png  used on input line 202.
-=======
-Package pdftex.def Info: ./images//TimeSpentGit.png  used on input line 192.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./images//TimeSpentGit.png  used on input line 220.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
-<./images//YearsGitImpact.png, id=58, 467.5869pt x 346.896pt>
+ [10 <./images//OSAffectsInterface.png>]
+<./images//YearsGitImpact.png, id=69, 467.5869pt x 346.896pt>
 File: ./images//YearsGitImpact.png Graphic file (type png)
 <use ./images//YearsGitImpact.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//YearsGitImpact.png  used on input line 210.
+Package pdftex.def Info: ./images//YearsGitImpact.png  used on input line 228.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
- [9 <./images//OSAffectsInterface.png> <./images//TimeSpentGit.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
-=======
-Package pdftex.def Info: ./images//YearsGitImpact.png  used on input line 200.
-(pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
- [9 <./images//OSAffectsInterface.png> <./images//TimeSpentGit.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 207--209
->>>>>>> Stashed changes
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 207--209
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
 
  []
 
-<./images//SwitchingCLI.png, id=65, 467.5869pt x 342.5598pt>
+[11 <./images//TimeSpentGit.png> <./images//YearsGitImpact.png>]
+<./images//SwitchingCLI.png, id=75, 467.5869pt x 342.5598pt>
 File: ./images//SwitchingCLI.png Graphic file (type png)
 <use ./images//SwitchingCLI.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//SwitchingCLI.png  used on input line 225.
-=======
-Package pdftex.def Info: ./images//SwitchingCLI.png  used on input line 214.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./images//SwitchingCLI.png  used on input line 242.
 (pdftex.def)             Requested size: 298.11374pt x 218.41164pt.
-[10 <./images//YearsGitImpact.png>]
-<./images//SwitchingGUI.png, id=70, 467.5869pt x 342.5598pt>
+<./images//SwitchingGUI.png, id=76, 467.5869pt x 342.5598pt>
 File: ./images//SwitchingGUI.png Graphic file (type png)
 <use ./images//SwitchingGUI.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//SwitchingGUI.png  used on input line 235.
-=======
-Package pdftex.def Info: ./images//SwitchingGUI.png  used on input line 224.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./images//SwitchingGUI.png  used on input line 252.
 (pdftex.def)             Requested size: 298.11374pt x 218.41164pt.
-<./images//EfficientSwitch.png, id=71, 467.5869pt x 342.5598pt>
+ [12 <./images//SwitchingCLI.png>]
+<./images//EfficientSwitch.png, id=81, 467.5869pt x 342.5598pt>
 File: ./images//EfficientSwitch.png Graphic file (type png)
 <use ./images//EfficientSwitch.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//EfficientSwitch.png  used on input line 242.
-=======
-Package pdftex.def Info: ./images//EfficientSwitch.png  used on input line 231.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./images//EfficientSwitch.png  used on input line 259.
 
 (pdftex.def)             Requested size: 298.11374pt x 218.41164pt.
- [11 <./images//SwitchingCLI.png> <./images//SwitchingGUI.png>]
-<./images//EfficientNoSwitch.png, id=77, 481.3182pt x 342.5598pt>
+<./images//EfficientNoSwitch.png, id=82, 481.3182pt x 342.5598pt>
 File: ./images//EfficientNoSwitch.png Graphic file (type png)
 <use ./images//EfficientNoSwitch.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//EfficientNoSwitch.png  used on input line 24
-9.
-=======
-Package pdftex.def Info: ./images//EfficientNoSwitch.png  used on input line 23
-8.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./images//EfficientNoSwitch.png  used on input line 26
+6.
 (pdftex.def)             Requested size: 298.11374pt x 212.17056pt.
-<./images//SpeedSwitch.png, id=78, 467.5869pt x 342.5598pt>
+ [13 <./images//SwitchingGUI.png> <./images//EfficientSwitch.png>]
+<./images//SpeedSwitch.png, id=88, 467.5869pt x 342.5598pt>
 File: ./images//SpeedSwitch.png Graphic file (type png)
 <use ./images//SpeedSwitch.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//SpeedSwitch.png  used on input line 256.
-=======
-Package pdftex.def Info: ./images//SpeedSwitch.png  used on input line 245.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./images//SpeedSwitch.png  used on input line 273.
 (pdftex.def)             Requested size: 298.11374pt x 218.41164pt.
- [12 <./images//EfficientSwitch.png> <./images//EfficientNoSwitch.png>]
-<./images//SpeedNoSwitch.png, id=84, 467.5869pt x 342.5598pt>
+<./images//SpeedNoSwitch.png, id=89, 467.5869pt x 342.5598pt>
 File: ./images//SpeedNoSwitch.png Graphic file (type png)
 <use ./images//SpeedNoSwitch.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//SpeedNoSwitch.png  used on input line 262.
+Package pdftex.def Info: ./images//SpeedNoSwitch.png  used on input line 279.
 (pdftex.def)             Requested size: 298.11374pt x 218.41164pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
-=======
-Package pdftex.def Info: ./images//SpeedNoSwitch.png  used on input line 251.
-(pdftex.def)             Requested size: 298.11374pt x 218.41164pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
->>>>>>> Stashed changes
+ [14 <./images//EfficientNoSwitch.png> <./images//SpeedSwitch.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
-[13 <./images//SpeedSwitch.png> <./images//SpeedNoSwitch.png>]
-<./images//WordsCLIFromCLI.png, id=90, 467.5869pt x 346.896pt>
+<./images//WordsCLIFromCLI.png, id=96, 467.5869pt x 346.896pt>
 File: ./images//WordsCLIFromCLI.png Graphic file (type png)
 <use ./images//WordsCLIFromCLI.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//WordsCLIFromCLI.png  used on input line 277.
-=======
-Package pdftex.def Info: ./images//WordsCLIFromCLI.png  used on input line 263.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./images//WordsCLIFromCLI.png  used on input line 291.
 
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
-<./images//WordsGUIfromCLI.png, id=91, 473.3685pt x 346.896pt>
+[15 <./images//SpeedNoSwitch.png>]
+<./images//WordsGUIfromCLI.png, id=101, 473.3685pt x 346.896pt>
 File: ./images//WordsGUIfromCLI.png Graphic file (type png)
 <use ./images//WordsGUIfromCLI.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//WordsGUIfromCLI.png  used on input line 285.
-=======
-Package pdftex.def Info: ./images//WordsGUIfromCLI.png  used on input line 271.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./images//WordsGUIfromCLI.png  used on input line 299.
 
 (pdftex.def)             Requested size: 298.11374pt x 218.47153pt.
- [14 <./images//WordsCLIFromCLI.png>]
-<./images//WordsGUIfromGUI.png, id=96, 473.3685pt x 346.896pt>
+ [16 <./images//WordsCLIFromCLI.png> <./images//WordsGUIfromCLI.png>]
+<./images//WordsGUIfromGUI.png, id=107, 473.3685pt x 346.896pt>
 File: ./images//WordsGUIfromGUI.png Graphic file (type png)
 <use ./images//WordsGUIfromGUI.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//WordsGUIfromGUI.png  used on input line 294.
-=======
-Package pdftex.def Info: ./images//WordsGUIfromGUI.png  used on input line 280.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./images//WordsGUIfromGUI.png  used on input line 308.
 
 (pdftex.def)             Requested size: 298.11374pt x 218.47153pt.
- [15 <./images//WordsGUIfromCLI.png> <./images//WordsGUIfromGUI.png>]
-<./images//WordsCLIFromGUI.png, id=103, 473.3685pt x 346.896pt>
+<./images//WordsCLIFromGUI.png, id=108, 473.3685pt x 346.896pt>
 File: ./images//WordsCLIFromGUI.png Graphic file (type png)
 <use ./images//WordsCLIFromGUI.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//WordsCLIFromGUI.png  used on input line 304.
+Package pdftex.def Info: ./images//WordsCLIFromGUI.png  used on input line 318.
 
 (pdftex.def)             Requested size: 298.11374pt x 218.47153pt.
- [16 <./images//WordsCLIFromGUI.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 311--313
-=======
-Package pdftex.def Info: ./images//WordsCLIFromGUI.png  used on input line 290.
-
-(pdftex.def)             Requested size: 298.11374pt x 218.47153pt.
- [16 <./images//WordsCLIFromGUI.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
->>>>>>> Stashed changes
+ [17 <./images//WordsGUIfromGUI.png>] [18 <./images//WordsCLIFromGUI.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
 
  []
 
-<./images//ExperimentAverageTime.png, id=108, 467.5869pt x 346.896pt>
+<./images//ExperimentAverageTime.png, id=117, 467.5869pt x 346.896pt>
 File: ./images//ExperimentAverageTime.png Graphic file (type png)
 <use ./images//ExperimentAverageTime.png>
 Package pdftex.def Info: ./images//ExperimentAverageTime.png  used on input lin
-<<<<<<< Updated upstream
-e 318.
-=======
-e 304.
->>>>>>> Stashed changes
+e 332.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
-<./images//ExperimentCli.png, id=109, 467.5869pt x 346.896pt>
+<./images//ExperimentCli.png, id=118, 467.5869pt x 346.896pt>
 File: ./images//ExperimentCli.png Graphic file (type png)
 <use ./images//ExperimentCli.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//ExperimentCli.png  used on input line 334.
-=======
-Package pdftex.def Info: ./images//ExperimentCli.png  used on input line 315.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./images//ExperimentCli.png  used on input line 348.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
-[17 <./images//ExperimentAverageTime.png>]
-<./images//ExperimentGui.png, id=114, 467.5869pt x 346.896pt>
+[19 <./images//ExperimentAverageTime.png>]
+<./images//ExperimentGui.png, id=123, 467.5869pt x 346.896pt>
 File: ./images//ExperimentGui.png Graphic file (type png)
 <use ./images//ExperimentGui.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./images//ExperimentGui.png  used on input line 344.
+Package pdftex.def Info: ./images//ExperimentGui.png  used on input line 358.
 (pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
- [18 <./images//ExperimentCli.png> <./images//ExperimentGui.png>] [19] [20] [21
+ [20 <./images//ExperimentCli.png> <./images//ExperimentGui.png>] [21] [22] [23
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Package pdftex.def Info: ./images//ExperimentGui.png  used on input line 324.
-(pdftex.def)             Requested size: 298.11374pt x 221.17635pt.
- [18 <./images//ExperimentCli.png>]
-[19 <./images//ExperimentGui.png>] [20] [21] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 390--467
+Underfull \hbox (badness 10000) in paragraph at lines 404--481
 
  []
 
-[22] [23] [24] [25
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 379--456
-
- []
-
-[23] [24] [25]
-Overfull \hbox (30.77115pt too wide) in paragraph at lines 459--459
+[24] [25] [26]
+Overfull \hbox (30.77115pt too wide) in paragraph at lines 484--484
 \OT1/cmr/m/n/10 Gist. \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 : $\OT1/cmtt/m/n/10 h
 ttps : / / gist . github . com / justincbagley / 95cfaf9601b4af6f3afa93b4d2155a
 bb$
  []
 
-[26
->>>>>>> Stashed changes
+[27
 
 ] (./BurovRaffaeli.aux)
 Package logreq Info: Writing requests to 'BurovRaffaeli.run.xml'.
@@ -1119,17 +929,10 @@ Package logreq Info: Writing requests to 'BurovRaffaeli.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< Updated upstream
- 13659 strings out of 476025
- 263469 string characters out of 5790017
- 1860388 words of memory out of 5000000
- 33981 multiletter control sequences out of 15000+600000
-=======
  13700 strings out of 476025
  264815 string characters out of 5790017
  1861388 words of memory out of 5000000
  34022 multiletter control sequences out of 15000+600000
->>>>>>> Stashed changes
  519727 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,7n,77p,1948b,1778s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1141,14 +944,10 @@ sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 /local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
 /local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-<<<<<<< Updated upstream
-Output written on BurovRaffaeli.pdf (29 pages, 498197 bytes).
-=======
-Output written on BurovRaffaeli.pdf (30 pages, 502510 bytes).
->>>>>>> Stashed changes
+Output written on BurovRaffaeli.pdf (32 pages, 507061 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 190 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
