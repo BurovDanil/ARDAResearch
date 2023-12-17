@@ -19,6 +19,13 @@
 \usepackage{float}
 \graphicspath{ {./images/} }
 
+<<<<<<< Updated upstream
+=======
+%TEST
+
+\addbibresource{BurovRaffaeli.bib}
+
+>>>>>>> Stashed changes
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
 
@@ -58,6 +65,7 @@
 	
 	%Talk about how Git works%
 	\subsubsection{Git}
+<<<<<<< Updated upstream
 	Up until this date Git is the most popular versioning control system, used by more than 93 percent of developers ('cite' -> StackOverflow survey). In order to understand Git it is crucial to know what is a versioning control system is (VCS). It is a system that enables developers to keep historical version of source code(*) and project files that are under development and retrieve past version. It is required when developing projects above a few hundred lines of code or where more than one developer needs to collaborate on a project. It stores version information for every file in what is generically called - 'repository'('cite -> pdf history of version control') . The basic structure of a Git repository has three main components. First, a .git directory which has the functionality of storing the meta data and object database for you repository and all the committed changes. Second, a staging area where new features that still need to be committed are kept, waiting for a commit to take place. Lastly, a working directory where your plain running copy of the source code is held. Once a commit takes place, the changes are saved from the staging area to the .git directory. ('cite -> pdf for CLI compare to GUI').
 	
 	\subsubsection{Command line Interface and Graphical User Interface}
@@ -69,11 +77,24 @@
 	%Which one is more efficient%
 	%two of the main limiting factors when it comes to the GUI
 	When using the command line interface you type commands manually to perform the desired actions whilst in a graphical user interface you will have something visual to interact with, such as buttons, input fields and so on. There are advantages and disadvantages of using either of the two interfaces not only for Git but in general. ('cite' -> pdf for CLI vs GUI). When it comes to programming, 83('cite' -> StackOverflow survey) percent of developers prefer the CLI instead of the GUI for various of reasons. Here are some of them: \\1) Interaction speed, when it comes to GUI the speed is determined mostly on how fast you can navigate with your mouse and click speed while with the CLI what you need to do is just interact with the keypad making the process faster. \\2) Efficiency, because of the way interaction is handled in the GUI it also requires more actions compared to the CLI to execute the same task. For example: If you want to commit changes to the main repository with the CLI you need to execute three consecutive commands, whereas in the GUI you need to navigate through three different buttons and you have to input a message with your keyboard. \\3) One complaint about CLI tools is that they supposedly have a 'steeper learning curve' and no one can remember what commands to use. However, if you need to learn a complex GUI the 'learning curve' can be as steep as learning the CLI. Although, in the long run it is always better to the learn the CLI because more efficient. ('cite' -> github repo)
+=======
+	Up until this date Git is the most popular versioning control system, used by more than 93 percent of developers (\cite{stackoverflow_stack_nodate}, 2020). In order to understand Git it is crucial to know what is a versioning control system is (VCS). It is a system that enables developers to keep historical version of source code and project files that are under development and retrieve past version. It is required when developing projects above a few hundred lines of code or where more than one developer needs to collaborate on a project. It stores version information for every file in what is generically called - 'repository' (\cite{ruparelia_history_2010}) . The basic structure of a Git repository has three main components. First, a .git directory which has the functionality of storing the meta data and object database for you repository and all the committed changes. Second, a staging area where new features that still need to be committed are kept, waiting for a commit to take place. Lastly, a working directory where your plain running copy of the source code is held. Once a commit takes place, the changes are saved from the staging area to the .git directory. (\cite{hultstrand_git_2015})
+	
+	\subsubsection{Command line Interface and Graphical User Interface}
+	%Story CLI vs GUI%
+	
+	%change the kenbak
+	When the first personal computer was invented by XEROX (\cite{smith_fumbling_1999}) users were forced to use the command line interface as their only way of interacting with the machine. Later on, with more people using the personal computers the need for a graphical user interface increased. The first prototypes of personal computers that use the GUI were developed in the 1970s (XEROX Alto 1973) (\cite{reimer_history_nodate}), however, it became popular with the release of the 'Macintosh' in 1984(\cite{reimer_history_nodate}). From that point on, the majority of users started using the GUI as their main interface relegating the use of CLI only to a small percentage of users.\\When Git was first released in 2005 (\cite{scott_chacon_and_ben_straub_git_nodate}) the only way to work with it was through the command line interface. Throughout the years many graphical user interfaces supporting Git were developed with the most important one being GitHub Desktop, created in 2017. (\cite{forster_announcing_2017})
+	
+	When using the command line interface you type commands manually to perform the desired actions whilst in a graphical user interface you will have something visual to interact with, such as buttons, input fields and so on. There are advantages and disadvantages of using either of the two interfaces not only for Git but in general. (\cite{hultstrand_git_2015}). When it comes to programming, 83(\cite{stackoverflow_stack_nodate}) percent of developers prefer the CLI instead of the GUI for various of reasons. Here are some of them: \\1) Interaction speed, when it comes to GUI the speed is determined mostly on how fast you can navigate with your mouse and click speed while with the CLI what you need to do is just interact with the keypad making the process faster. \\2) Efficiency, because of the way interaction is handled in the GUI it also requires more actions compared to the CLI to execute the same task. For example: If you want to commit changes to the main repository with the CLI you need to execute three consecutive commands, whereas in the GUI you need to navigate through three different buttons and you have to input a message with your keyboard. \\3) One complaint about CLI tools is that they supposedly have a 'steeper learning curve' and no one can remember what commands to use. However, if you need to learn a complex GUI the 'learning curve' can be as steep as learning the CLI. Although, in the long run it is always better to the learn the CLI because more efficient. (\cite{justin_c_bagley_reasons_nodate})
+>>>>>>> Stashed changes
 
-	%Reasearch question% 
-	%hypothesis -> X -> Y potential C's and I's%
 	\subsection{Research questions and Hypothesis}
+<<<<<<< Updated upstream
 	The aim of the research is to find what are the reasons that influence the choice of the interface among IT students. Therefore our research questions is: "What are the factors that influence the choice of the interface among IT students?". Since surveys show that command line interface is more used ('cite' -> StackOverflow ) than graphical user interface ('cite' -> GitHub repo) and also more efficient the sub-question this research paper is aiming to answer is the following: "Is transitioning to the CLI hard for an IT student that still uses the GUI?".
+=======
+	The aim of the research is to find what are the reasons that influence the choice of the interface among IT students. Therefore our research questions is: "What are the factors that influence the choice of the interface among IT students?". Since surveys show that command line interface is more used (\cite{stackoverflow_stack_nodate} ) than graphical user interface (\cite{justin_c_bagley_reasons_nodate}) and also more efficient the sub-question this research paper is aiming to answer is the following: "Is transitioning to the CLI hard for an IT student that still uses the GUI?".
+>>>>>>> Stashed changes
 	
 	We hypothesis that students do not base their choice of Git interface on efficiency but on how user-friendly and simple the interface is. Therefore, we also believe that making the transition to the CLI from GUI is hard, because of the steep learning curve from the beginning and that is why IT students keep using the GUI.\\
 	Although, there are some external factors that need to be taken into consideration. \\1) The years a student has already programmed for.\\2) How long have they been working with Git. \\3) What was their first chosen interface.\\4) Which operating system do they use. 
@@ -101,19 +122,20 @@
 	
 	\subsubsection{Experiment}
 	
-	%i have stated that experienced users have conducted the experiment as well and results show that since they have prior knowledge with the CLI it was easier for them to complete the exercise without any problem%
-	
-	%i will specify that we have made an experiment with 5 people that have never used Git with CLI and 5 people who have already used Git with CLI%
 	The experiment was conducted among second year IT students from Fontys. Given this information we chose the GUI to be GitHub Desktop since it is the most used graphical user interface.
-	%the purpose of the assignment%
 	
 	
+<<<<<<< Updated upstream
 	The main purpose for the experiment conducted for our research paper is to prove that when a person wants to switch from using the graphical user interface (GitHub Desktop) for Git to the command line interface the transition will take time and effort when it comes down to getting used to the commands. Especially because as mentioned above the learning curve is very steep. ('cite' -> GitHub repo).
 	
 	%explaining why we are doing two experiments with gui and cli and why we are doing the assignment briefly%
 	The exercise given to the students represent a very simple scenario where a developer would need to use Git through their interface. For the sake of our paper the experiment was done through both the graphical user interface and the command line. For a GUI we chose to use 'GitHub Desktop' since it is the most commonly used graphical interface ('cite' -> find somewhere to cite from this quote). The purpose of doing the assignment in both the interfaces is to prove that using the CLI for Git is much slower for students who have never used it and much more confusing. However, when a student had already used the CLI for Git purposes it was seen that the issues the newcomers had (mainly commands) weren't in the picture.\\
+=======
+	The main purpose for the experiment conducted for our research paper is to prove that when a person wants to switch from using the graphical user interface (GitHub Desktop) for Git to the command line interface the transition will take time and effort when it comes down to getting used to the commands. Especially because as mentioned above the learning curve is very steep. (\cite{justin_c_bagley_reasons_nodate}).
+
+	The exercise given to the students represent a very simple scenario where a developer would need to use Git through their interface. For the sake of our paper the experiment was done through both the graphical user interface and the command line. For a GUI we chose to use 'GitHub Desktop' since both of us have previously used it and we were confident creating an assignment with this graphical interface. The purpose of doing the assignment in both the interfaces is to prove that using the CLI for Git is much slower for students who have never used it and much more confusing. However, when a student had already used the CLI for Git purposes it was seen that the issues the newcomers had (mainly commands) weren't in the picture.\\
+>>>>>>> Stashed changes
 	
-	%explaining the assignment%
 	The assignment is covering all the basic commands that need to be done in order to complete a commit changes in a repository. Both groups of IT students have never seen the assignment and were treated as they have never used Git through the CLI. They were given two sheets of paper and a repository containing the assignment they need to complete. The first paper, contained all the commands required to complete the assignment ('refer to a figure').The second paper, had the description of the assignment.('refer to a figure here'). Time was recorder during the conducting of the exercises.
 	
 	
@@ -129,7 +151,7 @@
 	In this section we are going to display and explain each diagram that was generated from the results of the survey and the experiment. Every diagram will have a short explanation why it was created and the impact it has for our research. The survey had 60 participants while the experiment had 10 candidates. 
 	
 	\subsection{Survey participant information}
-	%FINISHED
+
 	In this subsections plots containing general programming expertise of the participants are going to be displayed, as well as their git experience and the interface they commonly use.\\
 	
 	As we can see from the figure below, among all the participants the majority of them (25) has been programming for 1-2 years, followed by 5+ years experience (24). Only, a small group of students has been programming for 2-5 years (9). (Figure.1)
@@ -159,9 +181,6 @@
 		\label{fig: 3}
 	\end{figure}
 	
-	%END
-	
-	%Danny
 	\subsection{Reasons to choose each interface}
 	The plots displayed in this subsection will display the factors that influenced the student to choose the interface they are currently using. They had to select from a range of words that represent why they opted for the interface they are currently using. We have two plots which show the answers from graphical user interface users and command line interface users. \\
 	
@@ -182,8 +201,7 @@
 		\caption{Reasons why students choose CLI}
 		\label{fig: 5}
 	\end{figure}
-	
-	%Danny
+
 	\subsection{External factors that influence the choosing }
 	Here we have derived all the external factors that influences the choice of the IT student's interface.  We evaluated if the time spent in Git, the operational system that the student uses and years of Git experience, influence the interface of their choosing.\\
 	
@@ -211,8 +229,7 @@
 			\caption{Impact of Git years on the interface}
 			\label{fig: 8}
 		\end{figure}
-		
-		%Giulio
+
 		\subsection{Efficient usage of Git based on the interface}
 		
 		This section is going to display the  results about the reasons why a user would like to switch its interface. First of all, we are going to analyze, based on the current interface they use, whether they ever consider swapping to the other interface at one point of their programming career.
@@ -264,9 +281,6 @@
 			\label{fig: 12}
 		\end{figure}
 		
-		
-	
-	%Giulio
 	\subsection{Words association for the two interfaces}
 	
 	In this sections we are going to have a deep look at what are the most common words associated with both interfaces. In order to have a bigger picture in the end, we created 4 separated diagrams, the first one displaying what do people that use CLI think about their interface, followed by their opinion on GUI. Next, the results about which are the most common words associated to GUI from its audience and their thought about CLI are going to be presented.\\\\
@@ -306,10 +320,10 @@
 		\label{fig: 18}
 	\end{figure}
 \newpage
-%Danny
+
 \subsection{Experiment results}
 The data displayed in the subsection will be regarding the experiment that was conducted among the IT students. We derived three plots in total which are most relevant to our research paper. Here we have shown the average time of completion in seconds between the two interfaces, the time it took for each participant in our experiment finishing the assignment through each interface.\\
-		%EXPERIMENT
+
 		
 	To have a better overview and make the calculation of the average of all the students who completed our assignment, we converted the minutes we had recorded to seconds. That way it is easier to see the different times that people using the CLI and GUI had for the completion of the experiment. On x-axis we have the interface that was used for the completion and on the y-axis the average seconds it took the students. (figure.19)
 	%Write which are the actual average times%

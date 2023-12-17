@@ -84,6 +84,10 @@
     </requires>
     <requires type="editable">
       <file>report.bib</file>
+<<<<<<< Updated upstream
+=======
+      <file>BurovRaffaeli.bib</file>
+>>>>>>> Stashed changes
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

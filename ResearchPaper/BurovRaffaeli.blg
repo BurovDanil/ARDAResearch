@@ -20,53 +20,47 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: BurovRaffaeli-blx.bib
 Database file #2: report.bib
 Database file #3: BurovRaffaeli.bib
-I was expecting a `,' or a `}'---line 3 of file BurovRaffaeli.bib
- : @online{StackOverflow 
- :                       Survey,
-I'm skipping whatever remains of this entry
-Database file #4: Burov.bib
 Biblatex version: 3.19
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 5 entries,
+You've used 9 entries,
             6399 wiz_defined-function locations,
-            1235 strings with 10341 characters,
-and the built_in function-call counts, 30576 in all, are:
-= -- 1302
-> -- 2435
-< -- 198
-+ -- 2289
-- -- 2001
-* -- 1561
-:= -- 4083
+            1271 strings with 13296 characters,
+and the built_in function-call counts, 78198 in all, are:
+= -- 3731
+> -- 6288
+< -- 500
++ -- 5952
+- -- 5161
+* -- 4230
+:= -- 10539
 add.period$ -- 0
-call.type$ -- 5
-change.case$ -- 35
-chr.to.int$ -- 210
-cite$ -- 8
-duplicate$ -- 2486
-empty$ -- 2301
-format.name$ -- 160
-if$ -- 4805
+call.type$ -- 9
+change.case$ -- 91
+chr.to.int$ -- 498
+cite$ -- 16
+duplicate$ -- 6031
+empty$ -- 5639
+format.name$ -- 416
+if$ -- 12134
 int.to.chr$ -- 0
-int.to.str$ -- 7
+int.to.str$ -- 17
 missing$ -- 0
-newline$ -- 151
-num.names$ -- 123
-pop$ -- 1361
+newline$ -- 316
+num.names$ -- 340
+pop$ -- 2719
 preamble$ -- 1
-purify$ -- 43
+purify$ -- 113
 quote$ -- 0
-skip$ -- 803
+skip$ -- 1843
 stack$ -- 0
-substring$ -- 2574
-swap$ -- 761
-text.length$ -- 185
-text.prefix$ -- 4
+substring$ -- 7914
+swap$ -- 1768
+text.length$ -- 424
+text.prefix$ -- 8
 top$ -- 1
-type$ -- 158
+type$ -- 294
 warning$ -- 0
-while$ -- 378
+while$ -- 897
 width$ -- 0
-write$ -- 147
-(There was 1 error message)
+write$ -- 308
