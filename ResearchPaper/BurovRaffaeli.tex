@@ -105,25 +105,25 @@
 
 	The exercise given to the students represent a very simple scenario where a developer would need to use Git through their interface. For the sake of our paper the experiment was done through both the graphical user interface and the command line. For a GUI we chose to use 'GitHub Desktop' since both of us have prior experience using it and we were confident creating an assignment with this graphical interface. The purpose of doing the assignment in both the interfaces is to prove that using the CLI for Git is much slower for students who have never used it and much more confusing. However, students already familiar with the basic Git commands through the CLI were not faced with the same issue as the newcomers.\\
 	
-	The assignment is covering all the basic commands that need to be done in order to complete a commit changes in a repository. Both groups of IT students have never seen the assignment and were treated as they have never used Git through the CLI. They were given two sheets of paper and a repository containing the assignment they need to complete. The first paper, contained all the commands needed to complete the assignment (see Appendix\ \ref{appendix: Experiment description}).The second paper, had the description of the assignment.(\ref{appendix: Experiment commands}). Time was recorder during the conducting of the exercises.
+	The assignment is covering all the basic commands that need to be done in order to complete a commit changes in a repository. Both groups of IT students have never seen the assignment and were treated as they have never used Git through the CLI. They were given two sheets of paper and a repository containing the assignment they need to complete. The first paper, contained all the commands needed to complete the assignment (see Appendix\ \ref{appendix: Experiment description}).The second paper included the description of the assignment.(see Appendix\ \ref{appendix: Experiment commands}). Time was recorder during the conduct of the exercises.
 	
 	
 	\subsection{Data visualization and transformation}
-	After gathering all the data, in order to store it in an organized way, multiple sheets were created. The tool used to create them was 'Google Sheets'. After inserting the data gathered from the survey it was exported as a 'CSV' file in order to use it later on for the data transformation. The same process was executed for the experiment. \\
+	After gathering all the data, in order to store it in an organized way, multiple sheets were created. The tool used to create them was 'Google Sheets'. After inserting the data gathered from the survey it was exported as a 'CSV' file in order to use it later on for the data transformation. This process of exporting data to an 'CSV' file was also applied to the experiment data.\\
 	
 	To perform the data transformation we had to choose between 'Python' and 'R'. We chose to use 'Python' with the library "pandas" v2.1.4 (McKinney, 2023) because we had previous knowledge of the language. \\
 	
 	First of all, we had to convert our 'CSV' files into dataframes which can then be used to generate plots with the use of the library "plotnine" v0.10.4 (Kibirige, 2023).  With this library multiple type of charts were created based on the variables that needed to be visualized or compared. One of the created diagram is the histogram. It was used to visualize single variable plots. The second type of diagram is the bar chart. We used it to display comparison between different entries of the same variable. And lastly, bar charts with multiple variables were used to point out correlations within two parameters.
 	
-	Before creating the plots, we needed to refine our dataframe. Initially, we had to remove a column named 'Timestamp' which was generated automatically while converting the survey data from 'Google Forms'. Later on, to perform specific queries we had to filter the data based on particular factors which influenced greatly the outcome of our plots. Moreover, to count how many times each word was chosen we needed to separate group of words and evaluate each one individually. Lastly, for the experiment dataframe we had to calculate the average time of completion for both interfaces to have a clear view of the time difference
+	Before creating the plots, we needed to refine our dataframe. Initially, we had to remove a column named 'Timestamp' which was generated automatically while converting the survey data from 'Google Forms'. Later on, to perform specific queries we had to filter the data based on particular factors which influenced greatly the outcome of our plots. Moreover, to count how many times each word was chosen we needed to separate group of words and evaluate each one individually. Lastly, for the experiment dataframe we had to calculate the average time of completion for both interfaces to have a clear view of the time difference.
 	\section{Results}
-	In this section we are going to display and explain each diagram that was generated from the results of the survey and the experiment. Every diagram will have a short explanation why it was created and the impact it has for our research. The survey had 60 participants while the experiment had 10 candidates. 
+	In this section we are going to display and explain each diagram that was generated from the results of the survey and the experiment. Every diagram will have a short explanation of why it was created and the impact it has for our research. The survey had 60 participants while the experiment had 10 candidates. 
 	
 	\subsection{Survey participant information}
 
 	In this subsections plots containing general programming expertise of the participants are going to be displayed, as well as their git experience and the interface they commonly use.\\
 	
-	As we can see from the figure below, among all the participants the majority of them (25) has been programming for 1-2 years, followed by 5+ years experience (24). Only, a small group of students has been programming for 2-5 years (9). Figure.\ref{fig: 1}
+	As shown in the figure below, among all the participants the majority of them (25) have been programming for 1-2 years, followed by 5+ years experience (24). Only, a small group of students have been programming for 2-5 years (9). Figure.\ref{fig: 1}
 	
 	\begin{figure}[H]
 		\centering
@@ -133,6 +133,7 @@
 	\end{figure}
 	
 		The diagram shows that 31 participants have been using Git for 1-2 years. 19 participants between 3-5 years and only 9 students have answered more than 5 years. Figure. \ref{fig: 2}
+		
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.75\linewidth]{GitYearsExperience}
@@ -151,9 +152,9 @@
 	\end{figure}
 	
 	\subsection{Reasons to choose each interface}
-	The plots displayed in this subsection will display the factors that influenced the student to choose the interface they are currently using. They had to select from a range of words that represent why they opted for the interface they are currently using. We have two plots which show the answers from graphical user interface users and command line interface users. \\
+	The plots displayed in this subsection will illustrate the factors that influenced the student to choose the interface they are currently using. They had to select from a range of words that represent why they opted for the interface they are currently using. We have two plots which show the answers from graphical user interface users and command line interface users. \\
 	
-	The following Figure.\ref{fig: 4} , presents the response of the IT students using the GUI as their main interface for usage with Git. It specifically highlights the words they associate with the GUI. From the diagram it is clear that the most common reason the student choose the GUI is because it is more user friendly, more visually appealing and faster.
+	Figure.\ref{fig: 4} , presents the response of the IT students using the GUI as their main interface for usage with Git. It specifically highlights the words they associate with the GUI. From the diagram it is clear that the most common reason the student choose the GUI is because it is more user friendly, more visually appealing and faster.
 	
 		\begin{figure}[H]
 		\centering
@@ -252,9 +253,10 @@
 		
 	\subsection{Words association for the two interfaces}
 	
-	In this sections we are going to have a deep look at what are the most common words associated with both interfaces. In order to have a bigger picture in the end, we created 4 separated diagrams, the first one displaying what do people that use CLI think about their interface, followed by their opinion on GUI. Next, the results about which are the most common words associated to GUI from its audience and their thought about CLI are going to be presented.\\\\
+	In this sections we are going to have a detailed look at what are the most common words associated with both interfaces. To create a comprehensive view, we created 4 separated diagrams, the first one displaying what do people that use CLI think about their interface, followed by their opinion on GUI. Next, the results about which are the most common words associated to GUI from its audience and their thought about CLI are going to be presented.\\\\
 
-	From the diagram below Figure.\ref{fig: 15} we can acknowledge that 23 CLI users believe that the Command Line is more controlled, 21 that is more efficient and 15 that it helps to control and manage files better. Some of them also think that it is easy to use and helpful, but at the same time dispersive.
+	From Figure.\ref{fig: 15} we can acknowledge that 23 CLI users believe that the Command Line is more controlled, 21 find it more efficient and 15 that it helps to control and manage files better. Some of them also think that it is easy to use and helpful, but at the same time dispersive.
+	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.75\linewidth]{WordsCLIFromCLI}\\
@@ -263,6 +265,7 @@
 	\end{figure}
 	
 	On the other hand, from the following image Figure.\ref{fig: 16} it is clear that the majority of CLI users ( 14 candidates) state that using the GUI is easier and helpful, but at the same time slower and more time consuming. Just a few participants believe that using the GUI is efficient, fast and controlled, while others said that is dispersive and hard.
+	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.75\linewidth]{WordsGUIfromCLI}\\
@@ -291,10 +294,10 @@
 \newpage
 
 \subsection{Experiment results}
-The data displayed in the subsection will be regarding the experiment that was conducted among the IT students. We derived three plots in total which are most relevant to our research paper. Here we have shown the average time of completion in seconds between the two interfaces, the time it took for each participant in our experiment finishing the assignment through each interface.\\
+The data displayed in the subsection will be regarding the experiment that was conducted among the IT students. We derived three key plots which are most relevant to our research paper. Here we have shown the average time of completion in seconds between the two interfaces, the time it took for each participant in our experiment finishing the assignment through each interface.\\
 
 		
-	To have a better overview and make the calculation of the average of all the students who completed our assignment, we converted the minutes we had recorded to seconds. That way it is easier to see the different times that people using the CLI and GUI had for the completion of the experiment. On x-axis we have the interface that was used for the completion and on the y-axis the average seconds it took the students. (Figure.\ref{fig: 19}). From the GUI we can see that the average time for completion is 126 seconds(2 minutes 06 seconds), whereas for the CLI it is 256 seconds(4 minutes 16 seconds).
+	To better calculate the average and have a clearer overview of all the students who completed our assignment, we converted the minutes we had recorded to seconds. That way it is easier to see the different times that people using the CLI and GUI had for the completion of the experiment. On x-axis we have the interface that was used for the completion and on the y-axis the average seconds it took the students. As illustrated in (Figure.\ref{fig: 19}), the GUI average completion time is 126 seconds(2 minutes 06 seconds), whereas for the CLI it is 256 seconds(4 minutes 16 seconds).
 
 \begin{figure}[H]
 	\centering
@@ -330,9 +333,9 @@ Below, we have displayed the results of the people who finished the assignment w
 	
 	\subsection{Evaluate Research Question}
 	In order to answer our main research question, we need to analyze the data gathered and transformed from the survey.
-	As mentioned in the introduction, there are multiple factors that may influence the choice of one interface instead of the other, starting from the experience a student already has with the tool .As we can see from Figure.\ref{fig: 8}, the more years of programming someone has using Git, the least likely it is that he is using the GUI. On the other hand, the majority of novices decide to approach this instrument with this interface. Nonetheless roughly the same amount of candidates with 2 to 5 years of Git experience uses one interface or the other, meaning that the transition to the more efficient CLI usually happens after the student is already confident on how Git works.\\
+	As mentioned in the introduction, there are multiple factors that may influence the choice of one interface instead of the other, starting from the experience a student already has with the tool .As we can see from Figure.\ref{fig: 8}, the more years of programming someone has using Git, the less likely it is that they are using the GUI. On the other hand, the majority of novices decide to approach this instrument with this interface. Nonetheless roughly the same amount of candidates with 2 to 5 years of Git experience uses one interface or the other, meaning that the transition to the more efficient CLI usually happens after the student is already confident on how Git works.\\
 	Next we have to consider whether the first interface chosen influences the outcome of why a user prefers an interface. As shown in Figure.\ref{fig: 9} and Figure.\ref{fig: 10}, this doesn't seem to  influence the final choice, since almost the same percentage of candidates from both interfaces have considered switching from one method to the other.\\
-	The last external factor that may condition an IT student is the main Operating System he usually uses. As shown in Figure.\ref{fig: 6}, this is a crucial factor, since both Linux and Mac users almost entirely rely on the CLI, while the majority of Windows users still prefer the other interface.\\
+	The last external factor that may condition an IT student is the main operating system they usually uses. As shown in Figure.\ref{fig: 6}, this is a crucial factor, since both Linux and Mac users almost entirely rely on the CLI, while the majority of Windows users still prefer the other interface.\\
 	When we first started conducting the research, our hypothesis was that students do not choose their interface based on how efficient they are going to be using it, but how intuitive and user friendly it is.
 	From the results of the conducted survey, this seems to be case.
 	First of all, from Figure.\ref{fig: 4} and Figure.\ref{fig: 17}, it is evident that participant that use the GUI, prefer it mostly because of it user-friendliness, for its visual appealing and because it is easy and helpful, even though for the majority is also faster.
@@ -340,38 +343,31 @@ Below, we have displayed the results of the people who finished the assignment w
 	Considering that 65  percent of the candidates uses the Graphical user interface (Figure.\ref{fig:13}), we can clearly state that IT students are more interested in the appearance of the interface instead of it's efficiency.
 	Now that the first research question is answered, we can proceed to trying to figure out why IT students that use the GUI do not want to transition to the more efficient Command Line Interface.
 	\subsection{Evaluate secondary research question}
-	As stated in the introduction, we believe that users that use the GUI won't change interface because it's not going to improve their efficiency and is not worth the time.
+	As stated in the introduction, we believe that users that use the GUI are unlikely to switch interfaces because it's not going to improve their efficiency and is not worth the time.
 	This statement can be confirmed by analyzing the data from both the experiment and the survey.
-	First of all, although some users are aware that they are not using the most efficient and fast method Figure.\ref{fig: 12}, Figure.\ref{fig: 14}, all the participants believe that switching won't make them more efficient Figure.\ref{fig:11}.
+	First of all, although some users are aware they are not using the most efficient and fast method Figure.\ref{fig: 12}, Figure.\ref{fig: 14}, all the participants believe that switching won't make them more efficient Figure.\ref{fig:11}.
 	Moreover, when asked opinions about the CLI, a lot of GUI candidates acknowledged that it is an efficient and more controlled environment, but at the same time hard and time-consuming Figure.\ref{fig: 18}.
-	Another statistic that confirm that using the CLI is more efficient is the average minutes per hour the survey participants spend on Git (Figure.\ref{fig: 7}). From the diagram is clear that the average time for the CLI candidate is around 5 minutes, while on the GUI side the average time is at around 10/15 minutes, with a lot of participants averaging 15 to 30 minutes per hour using this tool, drastically reducing the development process.
+	Another statistic supporting the using the efficiency of the CLI is the average minutes per hour the survey participants spend on Git (Figure.\ref{fig: 7}). From the diagram is clear that the average time for the CLI candidates is around 5 minutes, while on the GUI side the average time is at around 10/15 minutes, with a lot of participants averaging 15 to 30 minutes per hour using this tool, drastically reducing the development process.
 	Apart from the survey, the best way to evaluate whether our hypothesis is true is to discuss about the experiment's results.
 	From the experiment it is evident that novice GUI users that never touched the CLI are dramatically slower when it comes to execute basic tasks on the CLI compared to their preferred interface.
-	From the 10 candidates that conducted the experiment, the average time for completion of the CLI is more than doubled compared to the GUI (Figure.\ref{fig: 19)}. Moreover, while on the GUI side of the experiment there are 5 results above the average and 5 below it (Figure.\ref{fig: 20}), meaning that the average reflect the overall outcome, in the CLI only 3 students completed the assignment in less than the average time.(Figure.\ref{fig: 21}) From the results of the experiment it is evident that trying to transition from the GUI to the CLI is hard, time consuming and in the short run is going to reduce the student's already low efficiency.
+	From the 10 candidates that conducted the experiment, the average time for completion of the CLI is more than doubled compared to the GUI (Figure.\ref{fig: 19)}. Moreover, while on the GUI side of the experiment there are 5 results above the average and 5 below it (Figure.\ref{fig: 20}), meaning that the average reflect the overall outcome, in the CLI only, 3 students completed the assignment in less than the average time.(Figure.\ref{fig: 21}) From the results of the experiment it is evident that trying to transition from the GUI to the CLI is hard, time consuming and in the short run is going to reduce the student's already low efficiency.
 	
 	\subsection{Limitations}
-	In this section we are going to discuss about the limitations related to the research methods we have chosen.
-	First of all, for both the survey and the experiment, the sample size cannot perfectly reflect all IT students, since only 60 people participated in the survey and 10 on the experiment.
-	Moreover, even though we tried to send the survey not only to fontys students but also to learners from other universities, the majority of the results came from the first group, making the research more about Fontys IT students than the whole category.
-	Talking about the survey, one problem we encountered during data analysis is that we asked whether switching is going to improve their efficiency or not to both GUI and CLI users, changing the result that needed to be readjusted during the data transformation process. Another error was to ask in the survey about how long has the candidate been programming for, since in the final data analysis only the Git experience became an external factor to point out.
-	When it comes to the experiment the only problem that we believe may limit the final result is the structure of the assignment. In fact, although the tasks the candidate had to perform were well documented, some of them were uncertain on what to exactly do, increasing their time of completion. Since half of the candidates started with the GUI and half with the CLI, this shouldn't have influenced the overall outcome of the experiment.
+	In this section we will discuss the limitations related to the research methods we have chosen.
+	First of all, for both the survey and the experiment, the sample size cannot perfectly reflect all IT students, since only 60 people participated in the survey and 10 in the experiment.
+	Moreover, even though we attempted to distribute the survey not only to fontys students but also to students from other universities, the majority of the results came from the first group, making the research more about Fontys IT students than the whole category.
+	Talking about the survey, one problem we encountered during data analysis is that we asked whether switching is going to improve their efficiency or not to both GUI and CLI users, changing the result that needed to be readjusted during the data transformation process. Another issue was including a question in the survey about the candidates' programming years, since in the final data analysis only the Git experience became an external factor to point out.
+	Regarding the experiment the only problem that we believe may limit the final result is the structure of the assignment. In fact, although the tasks the candidate had to perform were well documented, some of them were uncertain on what to exactly do, increasing their time of completion. Since half of the candidates started with the GUI and half with the CLI, this shouldn't have influenced the overall outcome of the experiment.
+	
 	\subsection{Further Research}
 	In order to improve the quality of the results of the experiment, we propose to recreate the assignment based on candidate's suggestion and to create a second assignment to analyze their improvement. Moreover, the sample of both the survey and the experiment should be increased and the number of IT students from different universities should be improved. \newpage
-	%Result interpration%
 	
-
+\printbibliography[title=References]
+\newpage
 	
 	\section{Appendix}
 	
 	To see the python script for all the plots created in this research paper and the 'csv' files created from the responses of all the participants visit the following guthub repository: https://github.com/BurovDanil/ARDAResearch
-	%subsection for this
-	
-	%experiment and readme screenshot
-	
-	%CSV data experiment and survey (screenshot)
-	
-	%Screenshot of the python script
-	
 	
 	\subsection{Survey questions and possible answers}
 	1 - How long have you been programming?\\
@@ -511,9 +507,7 @@ Below, we have displayed the results of the people who finished the assignment w
 	
 	\section{Acknowledgment}
 	
-	ChatGPT was used to get a better understanding how to write our python scripts for the plots. As well as, for some misunderstandings with LaTeX formatting. It was used for paraphrasing certain sentences, but the sentence generated by the AI were not directly placed in the research paper. The response was only to get an idea for the paraphrasing.	
+	ChatGPT was used to get a better understanding how to write our python scripts for the plots. As well as, for some misunderstandings with LaTeX formatting and checking spelling and grammar. It was used for paraphrasing certain sentences, but the sentence generated by the AI were not directly placed in the research paper. The response was only to get an idea for the paraphrasing.	
 
-
-\printbibliography[title=References]
 
 \end{document}          

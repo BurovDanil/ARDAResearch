@@ -21,8 +21,8 @@
 \contentsline {subsection}{\numberline {4.2}Evaluate secondary research question}{21}{}%
 \contentsline {subsection}{\numberline {4.3}Limitations}{21}{}%
 \contentsline {subsection}{\numberline {4.4}Further Research}{22}{}%
-\contentsline {section}{\numberline {5}Appendix}{23}{}%
-\contentsline {subsection}{\numberline {5.1}Survey questions and possible answers}{23}{}%
-\contentsline {subsection}{\numberline {5.2}Experiment description}{25}{}%
-\contentsline {subsection}{\numberline {5.3}Required commands for experiment}{26}{}%
-\contentsline {section}{\numberline {6}Acknowledgment}{27}{}%
+\contentsline {section}{\numberline {5}Appendix}{24}{}%
+\contentsline {subsection}{\numberline {5.1}Survey questions and possible answers}{24}{}%
+\contentsline {subsection}{\numberline {5.2}Experiment description}{26}{}%
+\contentsline {subsection}{\numberline {5.3}Required commands for experiment}{27}{}%
+\contentsline {section}{\numberline {6}Acknowledgment}{28}{}%
