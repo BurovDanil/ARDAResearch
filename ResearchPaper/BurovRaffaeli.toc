@@ -24,4 +24,5 @@
 \contentsline {section}{\numberline {5}Appendix}{23}{}%
 \contentsline {subsection}{\numberline {5.1}Survey questions and possible answers}{23}{}%
 \contentsline {subsection}{\numberline {5.2}Experiment description}{25}{}%
-\contentsline {section}{\numberline {6}Acknowledgment}{25}{}%
+\contentsline {subsection}{\numberline {5.3}Required commands for experiment}{26}{}%
+\contentsline {section}{\numberline {6}Acknowledgment}{27}{}%
